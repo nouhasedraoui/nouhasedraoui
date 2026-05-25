@@ -30,7 +30,7 @@ I don't collect theory. I build things, break things, and document everything:
 ```
 Active on:    PortSwigger Web Academy · TryHackMe · Splunk BOTS
 Writing at:   medium.com/@ryxocrypt  (threat intel, CVE breakdowns)
-Building:     cybersecurity-portfolio (this repo)
+Building:     cybersecurity-portfolio 
 ```
 
 ---
