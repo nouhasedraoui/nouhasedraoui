@@ -7,8 +7,9 @@
 
 *Engineering graduate. Real labs. Real investigations. Zero fluff.*
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Nouha_Sedraoui-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nouha-sedraoui)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-sedraoui--nouha-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sedraoui-nouha)
 [![Medium](https://img.shields.io/badge/Medium-@ryxocrypt-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@ryxocrypt)
+[![TryHackMe](https://img.shields.io/badge/TryHackMe-nouhasedraoui-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/nouhasedraoui)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Nouha.Sedraoui@esprit.tn)
 [![Location](https://img.shields.io/badge/🇹🇳_Tunisia-Ariana-1DB954?style=for-the-badge)](.)
 
@@ -26,11 +27,12 @@ I don't collect theory. I build things, break things, and document everything:
 - 🔵 **Shipped CyberAudit Pro** — an AI-driven audit platform unifying 14 scanning tools, powered by a multi-model AI pipeline (DeepSeek, Grok, Llama, Mistral via Ollama), ISO 27001-aligned
 - 🔵 **Investigated Splunk BOTSv1** — completed both scenarios, scored **16,193 with zero penalties**, traced the full Cerber v2 ransomware kill chain across Sysmon, Suricata, stream:dns, and stream:smb
 - 🔵 **Published CVE analysis** on Medium (@ryxocrypt) — in-depth breakdown of CVE-2026-34197, an Apache ActiveMQ RCE that sat hidden for 13 years and is now actively exploited
+- 🏅 **TryHackMe** — ranked **#1 in Bronze League** and climbed to **#1 in Silver League** within consecutive weeks
 
 ```
 Active on:    PortSwigger Web Academy · TryHackMe · Splunk BOTS
 Writing at:   medium.com/@ryxocrypt  (threat intel, CVE breakdowns)
-Building:     cybersecurity-portfolio 
+Building:     cybersecurity-portfolio (this repo)
 ```
 
 ---
@@ -49,6 +51,100 @@ Building:     cybersecurity-portfolio
 
 📄 Full report → [`soc-labs/splunk-bots/botsv1-ransomware-report.pdf`](./soc-labs/splunk-bots/botsv1-ransomware-report.pdf)  
 📝 Investigation notes → [`soc-labs/splunk-bots/botsv1-investigation-notes.md`](./soc-labs/splunk-bots/botsv1-investigation-notes.md)
+
+---
+
+## 🎯 TryHackMe — Completed Rooms
+
+> **Ranked #1 in Bronze League · Promoted to Silver League · Ranked #1 in Silver League**  
+> Consistent top performer across back-to-back weekly leaderboard cycles.
+
+Rooms are grouped by domain. Each represents hands-on, practical work — not passive reading.
+
+<details>
+<summary><b>🌐 Web Application Security</b></summary>
+
+| Room | Difficulty | Focus |
+|------|-----------|-------|
+| [How Websites Work](https://tryhackme.com/room/howwebsiteswork) | Easy | Web architecture fundamentals |
+| [HTTP in Detail](https://tryhackme.com/room/httpindetail) | Easy | HTTP protocol, methods, status codes |
+| [Putting it all Together](https://tryhackme.com/room/puttingitalltogether) | Easy | End-to-end web request lifecycle |
+| [Guided Pentest: Web](https://tryhackme.com/room/guidedpentestweb) | Easy | Web app pentesting — recon to full compromise |
+| [CyberHeroes](https://tryhackme.com/room/cyberheroes) | Easy | CTF — authentication bypass challenge |
+| [W1seGuy](https://tryhackme.com/room/w1seguy) | Easy | CTF — plaintext cryptography challenge |
+
+</details>
+
+<details>
+<summary><b>🔵 SOC, DFIR & Forensics</b></summary>
+
+| Room | Difficulty | Focus |
+|------|-----------|-------|
+| [DFIR: An Introduction](https://tryhackme.com/room/introductoryroomdfirmodule) | Easy | Digital forensics & incident response foundations |
+| [Windows Forensics 1](https://tryhackme.com/room/windowsforensics1) | Medium | Windows Registry forensics |
+| [KAPE](https://tryhackme.com/room/kape) | Medium | Kroll Artifact Parser & Extractor for DFIR collection |
+| [Disk Analysis & Autopsy](https://tryhackme.com/room/autopsy2ze0) | Medium | Disk image forensics challenge using Autopsy |
+| [Memory Analysis Introduction](https://tryhackme.com/room/memoryanalysisintroduction) | Easy | Live memory forensics & threat detection |
+| [Malware Classification](https://tryhackme.com/room/malwareclassification) | Easy | Identify and classify common malware types |
+| [Dev Diaries](https://tryhackme.com/room/devdiaries) | Easy | OSINT — hunting development traces |
+
+</details>
+
+<details>
+<summary><b>🛡 Defensive Security & SOC Concepts</b></summary>
+
+| Room | Difficulty | Focus |
+|------|-----------|-------|
+| [Defensive Security Intro](https://tryhackme.com/room/defensivesecurityintroqW) | Easy | Threat intel, SOC, DFIR, Malware Analysis, SIEM |
+| [Offensive Security Intro](https://tryhackme.com/room/offensivesecurityintrokK) | Easy | Ethical hacking fundamentals |
+| [The CIA Triad](https://tryhackme.com/room/theciatriad) | Easy | Core security principles |
+| [Cryptography Concepts](https://tryhackme.com/room/cryptographyconcepts) | Easy | Cryptography in digital environments |
+| [Vectara](https://tryhackme.com/room/vectara) | Easy | CTF — 2026 AI Odyssey event challenges |
+| [AI Security Path Ticketing Event](https://tryhackme.com/room/aisecuritypathticketingevent) | Info | AI security fundamentals |
+
+</details>
+
+<details>
+<summary><b>🖥 Systems & Networking Fundamentals</b></summary>
+
+| Room | Difficulty | Focus |
+|------|-----------|-------|
+| [Linux Fundamentals Part 1](https://tryhackme.com/room/linuxfundamentalspart1) | Info | Linux CLI essentials |
+| [Windows Fundamentals 1](https://tryhackme.com/room/windowsfundamentals1xbx) | Info | Windows desktop, NTFS, UAC, Control Panel |
+| [Windows Fundamentals 2](https://tryhackme.com/room/windowsfundamentals2x0x) | Info | System Configuration, Resource Monitoring, Registry |
+| [Windows Fundamentals 3](https://tryhackme.com/room/windowsfundamentals3xzx) | Info | Windows Security, BitLocker, Windows Updates |
+| [Windows Basics](https://tryhackme.com/room/windowsbasics) | Easy | File management, system tools |
+| [What is Networking?](https://tryhackme.com/room/whatisnetworking) | Info | Computer networking fundamentals |
+| [DNS in Detail](https://tryhackme.com/room/dnsindetail) | Easy | DNS protocol and resolution |
+| [Nmap](https://tryhackme.com/room/furthernmap) | Easy | Advanced Nmap scanning techniques |
+| [Nmap Basic Port Scans](https://tryhackme.com/room/nmap02) | Easy | TCP connect, SYN, and UDP scan internals |
+| [Inside a Computer System](https://tryhackme.com/room/insideacomputer) | Easy | Hardware components |
+| [Computer Types](https://tryhackme.com/room/computertypes) | Easy | Categories of computing systems |
+| [Virtualisation Basics](https://tryhackme.com/room/virtualisationbasics) | Easy | Virtualisation concepts and use cases |
+| [Cloud Computing Fundamentals](https://tryhackme.com/room/cloudcomputingfundamentals) | Easy | Cloud scaling and service models |
+
+</details>
+
+<details>
+<summary><b>💻 Scripting & Development</b></summary>
+
+| Room | Difficulty | Focus |
+|------|-----------|-------|
+| [Python Basics](https://tryhackme.com/room/pythonbasics) | Easy | Python scripting fundamentals |
+| [Bash Scripting](https://tryhackme.com/room/bashscripting) | Easy | Bash automation |
+| [DevSecOps Basics](https://tryhackme.com/room/devsecopsbasics) | Medium | Shift-left security, development models |
+
+</details>
+
+<details>
+<summary><b>🎓 Career & Orientation</b></summary>
+
+| Room | Difficulty | Focus |
+|------|-----------|-------|
+| [Starting Out In Cyber Sec](https://tryhackme.com/room/startingoutincybersec) | Easy | Cyber security career paths |
+| [Careers in Cyber](https://tryhackme.com/room/careersincyber) | Info | Roles across the cyber industry |
+
+</details>
 
 ---
 
@@ -123,11 +219,12 @@ cybersecurity-portfolio/
 │     └── sans-moab-webcast-2026.md
 │
 ├── 🔵 soc-labs/
+│     ├── THM/                                    ← TryHackMe room notes
 │     └── splunk-bots/
 │           ├── botsv1-investigation-notes.md     ← Full Cerber v2 investigation
 │           └── botsv1-ransomware-report.pdf      ← Final incident report (score: 16,193)
 │
-├── 📜 certifications/
+├── 📜 Certifications/
 │     ├── fortinet-fcf-notes.md
 │     └── fortigate-administrator-notes.md
 │
@@ -147,7 +244,7 @@ cybersecurity-portfolio/
 | [Bleeding Llama CVE-2026-7482](./threat-intelligence/cve-2026-7482-bleeding-llama.md) | Threat Intel | AI platform OOB Read — 300k+ servers exposed |
 | [cPanel Triple CVE — May 2026](./threat-intelligence/cpanel-cve-may-2026.md) | Threat Intel | Code execution + privilege escalation in cPanel/WHM |
 | [Protocol Security Reference](./resources/protocol-security-reference.md) | Reference | 70+ protocols with attack vectors, tools, and defenses |
-| [FortiGate Administrator Notes](./certifications/fortigate-administrator-notes.md) | Certification | Full FCA 15-module notes |
+| [FortiGate Administrator Notes](./Certifications/fortigate-administrator-notes.md) | Certification | Full FCA 15-module notes |
 
 ---
 
