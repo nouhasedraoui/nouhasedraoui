@@ -102,80 +102,48 @@ I don't collect theory. I build things, break things, and document everything:
   <div align="center">
     <span style="color: #c9d1d9; font-size: 14px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; display: block; margin-bottom: 25px;">🏅 EARNED SECURITY BADGES (8 OPERATIONAL)</span>
     
-    <!-- GRID OF ACTUAL THM IMAGES -->
+  <div align="center">
+    <span style="color: #c9d1d9; font-size: 14px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; display: block; margin-bottom: 25px;">🏅 EARNED SECURITY BADGES (8 OPERATIONAL)</span>
+    
     <table border="0" cellspacing="15" cellpadding="0">
       <tr>
-        <!-- 1. Silver League (Rare) -->
         <td align="center" valign="top" style="width: 100px;">
-          <a href="https://tryhackme.com/rsd177/badges/silver-league" target="_blank">
-            <img src="https://tryhackme-badges.s3.amazonaws.com/silver-league.png" width="65px" style="filter: drop-shadow(0 0 8px rgba(0,241,241,0.6));" alt="Silver League" />
-          </a>
-          <div style="font-size: 11px; color: #00f1f1; font-weight: bold; margin-top: 8px;">Silver League</div>
-          <code style="font-size: 9px; color: #8b949e;">Rare: 2.2%</code>
+          <img src="https://img.shields.io/badge/-Silver_League-blue?style=flat&logo=tryhackme" alt="Silver League" />
+          <div style="font-size: 11px; color: #00f1f1; margin-top: 8px;">Silver League</div>
         </td>
-        <!-- 2. Bronze League (Rare) -->
         <td align="center" valign="top" style="width: 100px;">
-          <a href="https://tryhackme.com/rsd177/badges/bronze-league" target="_blank">
-            <img src="https://tryhackme-badges.s3.amazonaws.com/bronze-league.png" width="65px" style="filter: drop-shadow(0 0 6px rgba(205,127,50,0.5));" alt="Bronze League" />
-          </a>
-          <div style="font-size: 11px; color: #cd7f32; font-weight: bold; margin-top: 8px;">Bronze League</div>
-          <code style="font-size: 9px; color: #8b949e;">Rare: 5.1%</code>
+          <img src="https://img.shields.io/badge/-Bronze_League-orange?style=flat&logo=tryhackme" alt="Bronze League" />
+          <div style="font-size: 11px; color: #cd7f32; margin-top: 8px;">Bronze League</div>
         </td>
-        <!-- 3. AI Odyssey (Epic Event) -->
         <td align="center" valign="top" style="width: 100px;">
-          <a href="https://tryhackme.com/rsd177/badges/ai-odyssey" target="_blank">
-            <img src="https://tryhackme-badges.s3.amazonaws.com/ai-odyssey.png" width="65px" style="filter: drop-shadow(0 0 8px rgba(177,0,255,0.6));" alt="AI Odyssey" />
-          </a>
-          <div style="font-size: 11px; color: #b100ff; font-weight: bold; margin-top: 8px;">AI Odyssey</div>
-          <code style="font-size: 9px; color: #8b949e;">Epic: Event</code>
+          <img src="https://img.shields.io/badge/-AI_Odyssey-purple?style=flat&logo=tryhackme" alt="AI Odyssey" />
+          <div style="font-size: 11px; color: #b100ff; margin-top: 8px;">AI Odyssey</div>
         </td>
-        <!-- 4. cat linux.txt -->
         <td align="center" valign="top" style="width: 100px;">
-          <a href="https://tryhackme.com/rsd177/badges/terminaled" target="_blank">
-            <img src="https://tryhackme-badges.s3.amazonaws.com/terminaled.png" width="65px" alt="cat linux.txt" />
-          </a>
-          <div style="font-size: 11px; color: #c9d1d9; font-weight: 500; margin-top: 8px;">cat linux.txt</div>
-          <code style="font-size: 9px; color: #8b949e;">Common: 29.8%</code>
+          <img src="https://img.shields.io/badge/-Linux_Competent-grey?style=flat&logo=linux" alt="Linux" />
+          <div style="font-size: 11px; color: #c9d1d9; margin-top: 8px;">cat linux.txt</div>
         </td>
       </tr>
       <tr>
-        <!-- 5. 7 Day Streak -->
         <td align="center" valign="top" style="width: 100px;">
-          <a href="https://tryhackme.com/rsd177/badges/7-day-streak" target="_blank">
-            <img src="https://tryhackme-badges.s3.amazonaws.com/7-day-streak.png" width="65px" alt="7 Day Streak" />
-          </a>
-          <div style="font-size: 11px; color: #c9d1d9; font-weight: 500; margin-top: 8px;">7 Day Streak</div>
-          <code style="font-size: 9px; color: #8b949e;">Common: 21.6%</code>
+          <img src="https://img.shields.io/badge/-7_Day_Streak-red?style=flat&logo=target" alt="7 Day Streak" />
+          <div style="font-size: 11px; color: #c9d1d9; margin-top: 8px;">7 Day Streak</div>
         </td>
-        <!-- 6. 3 Day Streak -->
         <td align="center" valign="top" style="width: 100px;">
-          <a href="https://tryhackme.com/rsd177/badges/3-day-streak" target="_blank">
-            <img src="https://tryhackme-badges.s3.amazonaws.com/3-day-streak.png" width="65px" alt="3 Day Streak" />
-          </a>
-          <div style="font-size: 11px; color: #c9d1d9; font-weight: 500; margin-top: 8px;">3 Day Streak</div>
-          <code style="font-size: 9px; color: #8b949e;">Common: 33.5%</code>
+          <img src="https://img.shields.io/badge/-3_Day_Streak-orange?style=flat&logo=fire" alt="3 Day Streak" />
+          <div style="font-size: 11px; color: #c9d1d9; margin-top: 8px;">3 Day Streak</div>
         </td>
-        <!-- 7. World Wide Web -->
         <td align="center" valign="top" style="width: 100px;">
-          <a href="https://tryhackme.com/rsd177/badges/world-wide-web" target="_blank">
-            <img src="https://tryhackme-badges.s3.amazonaws.com/world-wide-web.png" width="65px" alt="World Wide Web" />
-          </a>
-          <div style="font-size: 11px; color: #c9d1d9; font-weight: 500; margin-top: 8px;">World Wide Web</div>
-          <code style="font-size: 9px; color: #8b949e;">Common: 21.2%</code>
+          <img src="https://img.shields.io/badge/-Web_Basics-blue?style=flat&logo=google-chrome" alt="World Wide Web" />
+          <div style="font-size: 11px; color: #c9d1d9; margin-top: 8px;">WWW</div>
         </td>
-        <!-- 8. Webbed -->
         <td align="center" valign="top" style="width: 100px;">
-          <a href="https://tryhackme.com/rsd177/badges/web-fund" target="_blank">
-            <img src="https://tryhackme-badges.s3.amazonaws.com/web-fund.png" width="65px" alt="Webbed" />
-          </a>
-          <div style="font-size: 11px; color: #c9d1d9; font-weight: 500; margin-top: 8px;">Webbed</div>
-          <code style="font-size: 9px; color: #8b949e;">Common: 23.9%</code>
+          <img src="https://img.shields.io/badge/-Webbed-green?style=flat&logo=serverfault" alt="Webbed" />
+          <div style="font-size: 11px; color: #c9d1d9; margin-top: 8px;">Webbed</div>
         </td>
       </tr>
     </table>
   </div>
-
-</div>
 
 <blockquote align="center">
   🏆 <b>OPERATIONAL ACHIEVEMENT LOG:</b> Secured #1 Bronze League &rarr; #1 Silver League in Back-to-Back Weekly Leaderboard Cycles.
