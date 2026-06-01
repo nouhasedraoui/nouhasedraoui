@@ -9,12 +9,11 @@ HEADERS = {
 }
 
 def get_stats():
-    # Try primary endpoint
     url = f"https://tryhackme.com/api/v2/public-profile/overview?username={USERNAME}"
     print(f"Trying: {url}")
     r = requests.get(url, timeout=15, headers=HEADERS)
     print(f"Status: {r.status_code}")
-    print(f"Response: {r.text[:500]}")   # shows first 500 chars for debugging
+    print(f"Response: {r.text[:500]}")
     r.raise_for_status()
     d = r.json()["data"]
     streak = d.get("streak", {}).get("current", 0)
@@ -30,7 +29,7 @@ def update_readme(streak, rooms, rank):
     txt = re.sub(r"\d+ Rooms 🚪", f"{rooms} Rooms 🚪",  txt)
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(txt)
-    print(f"✅ Updated → Streak: {streak} | Rank: Top {rank}% | Rooms: {rooms}")
+    print(f"✅ Updated → Streak:{streak} | Rank:Top {rank}% | Rooms:{rooms}")
 
 try:
     streak, rooms, rank = get_stats()
