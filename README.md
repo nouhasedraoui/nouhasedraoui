@@ -20,6 +20,20 @@
 
 ---
 
+<div align="center">
+
+[![About Me](https://img.shields.io/badge/〔_01_〕-ABOUT_ME-0d1117?style=for-the-badge&labelColor=0a84ff)](#-rootsoc-ops--yara--s-rulesoperator_signatureyar-procmemory_dump)
+[![Threat Intel](https://img.shields.io/badge/〔_02_〕-THREAT_INTEL-0d1117?style=for-the-badge&labelColor=cc0000)](#-rootsoc-ops--cat-varlogthreat-intellpublishedlog)
+[![Projects](https://img.shields.io/badge/〔_03_〕-PROJECTS-0d1117?style=for-the-badge&labelColor=1a7f37)](#-rootsoc-ops--dirb-filehomeoperatorlabs--ext-jsonyml)
+[![THM](https://img.shields.io/badge/〔_04_〕-THM-0d1117?style=for-the-badge&labelColor=c11111)](#-rootsoc-ops--thm_statussh---operator-rsd177)
+[![Arsenal](https://img.shields.io/badge/〔_05_〕-ARSENAL-0d1117?style=for-the-badge&labelColor=6f42c1)](#-rootsoc-ops--cat-etcsoc-osarsenalconf)
+[![Certs](https://img.shields.io/badge/〔_06_〕-CERTIFICATIONS-0d1117?style=for-the-badge&labelColor=e36209)](#-rootsoc-ops--cat-etcsoc-oscertificationsdb)
+[![GitHub](https://img.shields.io/badge/〔_07_〕-GITHUB-0d1117?style=for-the-badge&labelColor=333333)](#-rootsoc-ops--git-log---oneline---graph---all)
+
+</div>
+
+---
+
 ## `[root@soc-ops ~]# yara -s ~/rules/operator_signature.yar /proc/memory_dump`
 
 ```
@@ -38,7 +52,7 @@ rule High_Value_Threat_Hunter {
         $soc         = "Wazuh · ELK Stack · MISP · Active Response Automation"
         $appsec      = "Burp Suite · OWASP ZAP · SQLMap · Nuclei · Nikto"
         $ai_sec      = "DeepSeek · Grok · Llama · Qwen · Mistral via Ollama"
-        $scripting   = "Python · PowerShell · Bash"
+        $scripting   = "Python · Rust · PowerShell · Bash"
         $highlight_1 = "Splunk BOTSv1 — 16,193 pts · zero penalties · full Cerber v2 kill chain"
         $highlight_2 = "3 CVE analyses published · 1 Medium article · active threat intel researcher"
     condition:
@@ -53,11 +67,42 @@ rule High_Value_Threat_Hunter {
 
 ---
 
+## `[root@soc-ops ~]# cat /var/log/threat-intel/published.log`
+
+```diff
++ [INTEL]  Indexing published CVE research ............................ 🟢 3 entries found
++ [INTEL]  External publication detected — Medium @ryxocrypt ......... 🟢 confirmed
+```
+
+```diff
++ [CVE-2026-34197]  Apache ActiveMQ RCE
+    Severity  : CRITICAL
+    Hidden for 13 years — now actively exploited in the wild.
+    Published  : Medium @ryxocrypt — root cause · full attack chain · detection guidance
+    Link       : https://medium.com/@ryxocrypt
+
++ [CVE-2026-7482]  Bleeding Llama — OOB Read
+    Severity  : HIGH
+    300,000+ AI servers exposed.
+    Analysis   : github.com/nouhasedraoui/cybersecurity-portfolio
+
++ [cpanel-may-2026]  cPanel/WHM Triple CVE
+    Severity  : CRITICAL
+    Code execution + privilege escalation chain in cPanel/WHM.
+    Analysis   : github.com/nouhasedraoui/cybersecurity-portfolio
+```
+
+```
+[INTEL]  Threat intelligence feed: ACTIVE · next analysis: IN PROGRESS
+```
+
+---
+
 ## `[root@soc-ops ~]# dirb file:///home/operator/labs/ -ext .json,.yml`
 
 ```
 [DIRB]  Scanning local artifact store .................................. 🟢 done
-[DIRB]  4 high-value entries discovered
+[DIRB]  5 high-value entries discovered
 ```
 
 ```diff
@@ -90,37 +135,6 @@ rule High_Value_Threat_Hunter {
 
 ```
 [DIRB]  Scan complete. 5/5 artifacts verified. No access denied.
-```
-
----
-
-## `[root@soc-ops ~]# cat /var/log/threat-intel/published.log`
-
-```diff
-+ [INTEL]  Indexing published CVE research ............................ 🟢 3 entries found
-+ [INTEL]  External publication detected — Medium @ryxocrypt ......... 🟢 confirmed
-```
-
-```diff
-+ [CVE-2026-34197]  Apache ActiveMQ RCE
-    Severity  : CRITICAL
-    Hidden for 13 years — now actively exploited in the wild.
-    Published  : Medium @ryxocrypt — root cause · full attack chain · detection guidance
-    Link       : https://medium.com/@ryxocrypt
-
-+ [CVE-2026-7482]  Bleeding Llama — OOB Read
-    Severity  : HIGH
-    300,000+ AI servers exposed.
-    Analysis   : github.com/nouhasedraoui/cybersecurity-portfolio
-
-+ [cpanel-may-2026]  cPanel/WHM Triple CVE
-    Severity  : CRITICAL
-    Code execution + privilege escalation chain in cPanel/WHM.
-    Analysis   : github.com/nouhasedraoui/cybersecurity-portfolio
-```
-
-```
-[INTEL]  Threat intelligence feed: ACTIVE · next analysis: IN PROGRESS
 ```
 
 ---
@@ -162,8 +176,8 @@ rule High_Value_Threat_Hunter {
 + [LANGUAGES]
 ```
 
-| ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) | ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white) | ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white) | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) |
-|---|---|---|---|
+| ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) | ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white) | ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white) | ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white) | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) |
+|---|---|---|---|---|
 
 ```diff
 + [SOC / SIEM]
