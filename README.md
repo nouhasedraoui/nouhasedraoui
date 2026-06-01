@@ -76,10 +76,10 @@ I don't collect theory. I build things, break things, and document everything:
 
 | | | | |
 |:-:|:-:|:-:|:-:|
-| ![Silver League](https://img.shields.io/badge/-Silver_League-blue?style=flat&logo=tryhackme) | ![Bronze League](https://img.shields.io/badge/-Bronze_League-orange?style=flat&logo=tryhackme) | ![AI Odyssey](https://img.shields.io/badge/-AI_Odyssey-purple?style=flat&logo=tryhackme) | ![Linux](https://img.shields.io/badge/-Linux_Competent-grey?style=flat&logo=linux) |
-| Silver League | Bronze League | AI Odyssey | cat linux.txt |
-| ![7 Day Streak](https://img.shields.io/badge/-7_Day_Streak-red?style=flat&logo=target) | ![3 Day Streak](https://img.shields.io/badge/-3_Day_Streak-orange?style=flat&logo=fire) | ![Web Basics](https://img.shields.io/badge/-Web_Basics-blue?style=flat&logo=google-chrome) | ![Webbed](https://img.shields.io/badge/-Webbed-green?style=flat&logo=serverfault) |
-| 7 Day Streak | 3 Day Streak | WWW | Webbed |
+| <img src="https://assets.tryhackme.com/img/badges/league-silver.png" width="80" alt="Silver League"/> | <img src="https://assets.tryhackme.com/img/badges/league-bronze.png" width="80" alt="Bronze League"/> | <img src="https://assets.tryhackme.com/img/badges/ai-odyssey-participation.svg" width="80" alt="AI Odyssey"/> | <img src="https://assets.tryhackme.com/img/badges/linux.png" width="80" alt="Linux"/> |
+| **Silver League** | **Bronze League** | **AI Odyssey** | **cat linux.txt** |
+| <img src="https://assets.tryhackme.com/img/badges/streak7.png" width="80" alt="7 Day Streak"/> | <img src="https://assets.tryhackme.com/img/badges/streak3.png" width="80" alt="3 Day Streak"/> | <img src="https://assets.tryhackme.com/img/badges/howthewebworks.png" width="80" alt="How The Web Works"/> | <img src="https://assets.tryhackme.com/img/badges/webbed.png" width="80" alt="Webbed"/> |
+| **7 Day Streak** | **3 Day Streak** | **WWW** | **Webbed** |
 
 > 🏆 **OPERATIONAL ACHIEVEMENT LOG:** Secured #1 Bronze League → #1 Silver League in Back-to-Back Weekly Leaderboard Cycles.
 
