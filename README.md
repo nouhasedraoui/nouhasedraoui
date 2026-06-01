@@ -113,71 +113,7 @@ rule High_Value_Threat_Hunter {
 
 </div>
 
----
-
-## 📊 `[root@soc-ops ~]# ./render_dashboard.py --module highlights`
-
-```bash
-[DASHBOARD]  Compiling operational highlights ......................... 🟢 done
-[DASHBOARD]  Rendering threat-hunting metrics and platform telemetry... 🟢 done
-```
-
-<div align="center">
-
-| | Splunk BOTSv1 | CyberAudit Pro |
-|---|---|---|
-| **Type** | Threat Hunting Competition | AI-Driven Audit Platform (PFE) |
-| **Score / Scale** | **16,193** — zero penalties | 14 scanning tools unified |
-| **Scope** | Both scenarios completed | Multi-model AI pipeline |
-| **Key Achievement** | Full Cerber v2 kill chain reconstructed | ISO 27001-aligned workflow |
-| **Log Sources / Stack** | Sysmon · Suricata · stream:dns · stream:smb | DeepSeek · Grok · Llama · Qwen · Mistral |
-| **Output** | Incident report + investigation notes | Certification-ready documentation |
-
-</div>
-
----
-
-## 💼 `[root@soc-ops ~]# cat /var/log/career/experience.log`
-
-```bash
-[EXP-LOG]  Parsing operator field deployments ......................... 🟢 done
-[EXP-LOG]  3 engagements found — displaying chronological records.
-```
-
-**SmartSkills — Final Year Engineering Intern (PFE)** `Jan 2025 – Oct 2025`
-
-Architected CyberAudit Pro, an AI-driven cybersecurity audit platform unifying 14 scanning tools (Nmap, OWASP ZAP, Nuclei, Nikto, SQLMap, Lynis) within a Django web application. Built a multi-model AI pipeline using OpenRouter (DeepSeek, Grok, Qwen, Llama) to automate vulnerability correlation and false-positive reduction across heterogeneous scan outputs. Designed an ISO 27001-aligned audit workflow with dual-stage AI analysis generating certification-ready documentation. Implemented offline, privacy-preserving analysis using Ollama-hosted Mistral and LangChain, with async scan orchestration via Python subprocess management and Paramiko SSH across a fully virtualized infrastructure.
-
-**Next Step IT — SOC Engineering Intern** `Jun 2024 – Jul 2024`
-
-Deployed Wazuh SIEM integrated with ELK Stack for centralized log management and advanced threat detection. Configured Active Response automation for real-time mitigation through IP blocking, process termination, and firewall rule updates. Deployed correlation rules to detect APT activity, brute-force attacks, and malware infections. Integrated MISP threat intelligence feeds to enrich security alerts with contextual vulnerability data.
-
-**Tunisie Telecom — Network Monitoring Intern** `Jun 2023 – Jul 2023`
-
-Deployed the EyesOfNetwork monitoring suite (Nagios, Cacti, NagVis, Weathermap) for real-time supervision of a large corporate infrastructure. Configured SNMP across Windows and Linux hosts and implemented customized Nagios checks for network devices with Cacti graphs for traffic analysis and capacity planning.
-
----
-
-## 🔬 `[root@soc-ops ~]# ls -la /projects/academic/`
-
-```bash
-[FS]  Mounting project archive ........................................ 🟢 done
-[FS]  4 entries found — access level: READ
-```
-
-**Healthcare SOC** `Dec 2023 – Jun 2024`
-Designed and built a HIPAA-compliant SOC from scratch using SIEM and SOAR technologies. Developed threat hunting playbooks, alert triage workflows, and automated incident response procedures for a simulated healthcare environment.
-
-**DevSecOps — Securing a Spring Boot CI/CD Pipeline** `Sep 2024 – Nov 2024`
-Integrated SonarQube, OWASP Dependency-Check, and Trivy into a Jenkins and GitLab CI pipeline to automate security testing at every build stage. Reduced vulnerability exposure through policy-as-code deployment gates.
-
-**Active Directory Identity and Access Management** `Mar 2024 – Jun 2024`
-Deployed and hardened a Windows Active Directory environment. Used PingCastle for security posture scoring and Keycloak for federated identity and SSO management.
-
-**Digital Forensics Investigation on Windows** `Sep 2024 – Nov 2024`
-Performed a full forensic investigation on a compromised Windows machine using Autopsy, FTK Imager, SleuthKit, and memory analysis tools (PSList, ListDLL, PMDump, LogonSessions) to reconstruct the full attack timeline.
-
----
+...
 
 ## ⚙️ `[root@soc-ops ~]# cat /etc/soc-os/arsenal.conf`
 
@@ -258,44 +194,7 @@ cybersecurity-portfolio/
 └── resources/
       ├── network_protocols_reference.md
       └── useful-links.md
-```
-
----
-
-## 🎯 `[root@soc-ops ~]# ./load_featured.sh --priority HIGH`
-
-```bash
-[FEATURED]  Indexing high-value operational artifacts ................. 🟢 done
-[FEATURED]  7 entries flagged — rendering mission-critical work.
-```
-
-| Work | Category | What's Inside |
-|------|----------|---------------|
-| [BOTSv1 Ransomware Investigation](https://github.com/nouhasedraoui/cybersecurity-portfolio/blob/main/soc-labs/splunk-bots/botsv1-investigation-notes.md) | SOC / DFIR | Cerber v2 kill chain · Score 16,193 · Zero penalties |
-| [BOTSv1 Final Report (PDF)](https://github.com/nouhasedraoui/cybersecurity-portfolio/blob/main/soc-labs/splunk-bots/botsv1_ransomware_investigation-2026-05-10%20(9).pdf) | SOC / DFIR | Full incident report with timeline and IOCs |
-| [PortSwigger SQLi Series](https://github.com/nouhasedraoui/cybersecurity-portfolio/blob/main/web-application-security/sql-injection/portswigger-sqli-notes.md) | Web Security | Full PortSwigger SQLi lab series — every technique documented |
-| [Bleeding Llama CVE-2026-7482](https://github.com/nouhasedraoui/cybersecurity-portfolio/blob/main/threat-intelligence/CVEs/cve-2026-7482-bleeding-llama.md) | Threat Intel | AI platform OOB Read — 300k+ servers exposed |
-| [cPanel Triple CVE — May 2026](https://github.com/nouhasedraoui/cybersecurity-portfolio/blob/main/threat-intelligence/CVEs/cpanel-cve-may-2026.md) | Threat Intel | Code execution + privilege escalation in cPanel/WHM |
-| [FortiGate Administrator Notes](https://github.com/nouhasedraoui/cybersecurity-portfolio/blob/main/Certifications/Fortigate/fortigate-administrator-notes.md) | Certification | Full FCA 15-module notes |
-| [PyGhost-MAC](https://github.com/nouhasedraoui/cybersecurity-portfolio/blob/main/tools-and-scripts/Python-Scripts/Own_ones/PyGhost-MAC.py) | Tools | Custom Python MAC spoofing script |
-
----
-
-## ✍️ `[root@soc-ops ~]# curl -s https://medium.com/@ryxocrypt/feed`
-
-```bash
-[RSS]   Fetching threat intelligence publications from @ryxocrypt .... 🟢 200 OK
-[RSS]   1 article published — high-severity CVE coverage confirmed.
-```
-
-Published threat intelligence breakdowns for defenders:
-
-**[CVE-2026-34197: A Bug That Hid Inside Apache ActiveMQ for 13 Years](https://medium.com/@ryxocrypt/cve-2026-34197-a-bug-that-hid-inside-apache-activemq-for-13-years-and-now-its-being-exploited-ae0e17996ddc)**
-Root cause analysis, full attack chain walkthrough, and detection guidance for an actively exploited remote code execution vulnerability.
-
-More articles in progress.
-
----
+...
 
 ## 🏆 `[root@soc-ops ~]# cat /etc/soc-os/certifications.db`
 
