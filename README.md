@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./banner.png" width="100%" alt="Nouha Sedraoui Terminal Banner"/>
+<img src="./bannner.png" width="100%" alt="Nouha Sedraoui Terminal Banner"/>
 
 <br/>
 
