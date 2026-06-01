@@ -4,43 +4,39 @@
 
 ```
 <p align="center">
-  <img src="data:image/svg+xml;utf8,<svg xmlns='[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)' viewBox='0 0 800 210' width='100%25' style='background:%230d1117; border-radius:8px; border: 1px solid %2300ff33; box-shadow: 0 0 15px %2300ff33;'>
-    <!-- Cyberpunk Terminal Header Icons -->
+  <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 210' width='100%25' style='background:%230d1117; border-radius:8px; border: 1px solid %2300ff33; box-shadow: 0 0 15px %2300ff33;'>
     <circle cx='20' cy='20' r='6' fill='%23ff5f56' />
     <circle cx='40' cy='20' r='6' fill='%23ffbd2e' />
     <circle cx='60' cy='20' r='6' fill='%2327c93f' />
     <text x='85' y='25' fill='%238b949e' font-family='monospace' font-size='12'>[root@soc-ops:~]# locate_operator --active</text>
-    <text x='775' y='25' fill='%2300ff33' font-family='monospace' font-size='14' font-weight='bold'>🟢</text>
-    
-    <!-- Neon Slant ASCII Art -->
+    <text x='775' y='25' fill='%2300ff33' font-family='monospace' font-size='14' font-weight='bold'>●</text>
     <text x='50%25' y='80' text-anchor='middle' fill='%2300ff33' font-family='monospace' font-size='15' font-weight='bold' xml:space='preserve'>    _  _   ___   _  _   _  _    _      ___  ___  ___   ___    _    ___   _  _   ___ </text>
     <text x='50%25' y='95' text-anchor='middle' fill='%2300ff33' font-family='monospace' font-size='15' font-weight='bold' xml:space='preserve'>   | \| | / _ \ | | | | | | |  /_\    / __|| __||   \ | _ \  /_\  / _ \ | | | | |_ _|</text>
     <text x='50%25' y='110' text-anchor='middle' fill='%2300ff33' font-family='monospace' font-size='15' font-weight='bold' xml:space='preserve'>   | .` || (_) || |_| | | __ | / _ \   \__ \| _| | |) ||   / / _ \| (_) || |_| |  | | </text>
     <text x='50%25' y='125' text-anchor='middle' fill='%2300ff33' font-family='monospace' font-size='15' font-weight='bold' xml:space='preserve'>   |_|\_| \___/  \___/  |_||_||_/ \_\  |___/|___||___/ |_|_\/_/ \_\\___/  \___/  |___|</text>
-    
-    <!-- Matrix Glowing Status Bar -->
     <line x1='30' y1='160' x2='770' y2='160' stroke='%2300ff33' stroke-width='0.5' opacity='0.5' />
-    <text x='50%25' y='185' text-anchor='middle' fill='%2358a6ff' font-family='monospace' font-size='13' font-weight='bold'>⚡ SECURITY OPERATIONS CENTER // CORE OPERATOR NODE ⚡</text>
+    <text x='50%25' y='185' text-anchor='middle' fill='%232358a6ff' font-family='monospace' font-size='13' font-weight='bold'>⚡ SECURITY OPERATIONS CENTER // CORE OPERATOR NODE ⚡</text>
   </svg>" alt="Nouha Sedraoui Cyber Terminal Banner" />
 </p>
-
 <p align="center">
-  <a href="[https://linkedin.com/in/sedraoui-nouha](https://linkedin.com/in/sedraoui-nouha)" target="_blank">
-    <img src="[https://img.shields.io/badge/LinkedIn-sedraoui--nouha-0077B5?style=for-the-badge&logo=linkedin&logoColor=white](https://img.shields.io/badge/LinkedIn-sedraoui--nouha-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)" alt="LinkedIn">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00FF33&center=true&vCenter=true&width=600&lines=Cybersecurity+Engineer;SOC+Analyst+%7C+Threat+Intelligence;Web+Application+Security;Defender+of+the+Digital+Realm" alt="Typing SVG" />
+</p>
+<p align="center">
+  <a href="https://linkedin.com/in/sedraoui-nouha" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-sedraoui--nouha-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
-  <a href="[https://medium.com/@ryxocrypt](https://medium.com/@ryxocrypt)" target="_blank">
-    <img src="[https://img.shields.io/badge/Medium-%40ryxocrypt-000000?style=for-the-badge&logo=medium&logoColor=white](https://img.shields.io/badge/Medium-%40ryxocrypt-000000?style=for-the-badge&logo=medium&logoColor=white)" alt="Medium">
+  <a href="https://medium.com/@ryxocrypt" target="_blank">
+    <img src="https://img.shields.io/badge/Medium-%40ryxocrypt-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Medium">
   </a>
-  <a href="[https://github.com/nouhasedraoui](https://github.com/nouhasedraoui)" target="_blank">
-    <img src="[https://img.shields.io/badge/GitHub-nouhasedraoui-181717?style=for-the-badge&logo=github&logoColor=white](https://img.shields.io/badge/GitHub-nouhasedraoui-181717?style=for-the-badge&logo=github&logoColor=white)" alt="GitHub">
+  <a href="https://github.com/nouhasedraoui" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-nouhasedraoui-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
   </a>
   <a href="mailto:Nouha.Sedraoui@esprit.tn">
-    <img src="[https://img.shields.io/badge/Email-Nouha.Sedraoui%40esprit.tn-D14836?style=for-the-badge&logo=gmail&logoColor=white](https://img.shields.io/badge/Email-Nouha.Sedraoui%40esprit.tn-D14836?style=for-the-badge&logo=gmail&logoColor=white)" alt="Email">
+    <img src="https://img.shields.io/badge/Email-Nouha.Sedraoui%40esprit.tn-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
   </a>
-  <img src="[https://img.shields.io/badge/Tunisia-Ariana-20B2AA?style=for-the-badge&logo=google-maps&logoColor=white](https://img.shields.io/badge/Tunisia-Ariana-20B2AA?style=for-the-badge&logo=google-maps&logoColor=white)" alt="Location">
+  <img src="https://img.shields.io/badge/Tunisia-Ariana-20B2AA?style=for-the-badge&logo=google-maps&logoColor=white" alt="Location">
 </p>
 
----
 
 ---
 
