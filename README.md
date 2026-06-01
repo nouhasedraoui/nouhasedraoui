@@ -70,7 +70,6 @@ I don't collect theory. I build things, break things, and document everything:
 |:-----------:|:--------------:|:---------------:|
 | 🌐 **Top 15%** | 🔥 **21 Days** | 🚪 **41 Rooms** |
 
----
 
 ### 🏅 EARNED SECURITY BADGES (8 OPERATIONAL)
 
@@ -81,10 +80,9 @@ I don't collect theory. I build things, break things, and document everything:
 | <img src="https://assets.tryhackme.com/img/badges/streak7.png" width="80" alt="7 Day Streak"/> | <img src="https://assets.tryhackme.com/img/badges/streak3.png" width="80" alt="3 Day Streak"/> | <img src="https://assets.tryhackme.com/img/badges/howthewebworks.png" width="80" alt="How The Web Works"/> | <img src="https://assets.tryhackme.com/img/badges/webbed.png" width="80" alt="Webbed"/> |
 | **7 Day Streak** | **3 Day Streak** | **WWW** | **Webbed** |
 
-> 🏆 **OPERATIONAL ACHIEVEMENT LOG:** Secured #1 Bronze League → #1 Silver League in Back-to-Back Weekly Leaderboard Cycles.
-
 </div>
 
+---
 ## Highlights Dashboard
 
 <div align="center">
