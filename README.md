@@ -66,13 +66,10 @@ I don't collect theory. I build things, break things, and document everything:
 
 <p align="center">
   <a href="https://tryhackme.com/p/rsd177" target="_blank">
-    <img src="https://tryhackme-badges.vercel.app/api/user/v2/badges/rsd177?theme=dark" alt="TryHackMe Dynamic Stats Dashboard" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://tryhackme.com/p/rsd177" target="_blank">
-    <img src="https://img.shields.io/badge/OPERATIONAL_STATUS-ACTIVE_HUNTING-00ffcc?style=for-the-badge&logo=target&logoColor=00ffcc" />
+    <!-- الرتبة العالمية الحية -->
+    <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=THM%20Global%20Rank&query=$.rank&url=https%3A%2F%2Ftryhackme.com%2Fapi%2Fv2%2Fpublic%2Fprofile%3Fusername%3Drsd177&color=00ffcc&logo=tryhackme" alt="THM Rank" />
+    <!-- المستوى الحالي الحي -->
+    <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=THM%20Level&query=$.level&url=https%3A%2F%2Ftryhackme.com%2Fapi%2Fv2%2Fpublic%2Fprofile%3Fusername%3Drsd177&color=01f1f1" alt="THM Level" />
   </a>
 </p>
 
@@ -81,6 +78,8 @@ I don't collect theory. I build things, break things, and document everything:
   <br>
   <code>[⚡ #1 Bronze League &rarr; #1 Silver League 🔥]</code>
 </blockquote>
+
+---
 
 
 ---
