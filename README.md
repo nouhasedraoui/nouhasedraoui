@@ -62,27 +62,27 @@ I don't collect theory. I build things, break things, and document everything:
 
 ---
 
-## 🛡️ THM COMPLIANCE & LIVE RANKING
+## 🛡️ THM LIVE THREAT HUNTING OPERATIONAL DATA
 
 <p align="center">
   <a href="https://tryhackme.com/p/rsd177" target="_blank">
-    <img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&text=TRYHACKME%20%7C%20RANK:%20SILVER%20LEAGUE&fontSize=20&fontColor=00ffcc&height=60&width=600&stroke=00ffcc&strokeWidth=2" alt="THM Level" />
+    <img src="https://tryhackme-badges.vercel.app/api/user/v2/badges/rsd177?theme=dark" alt="TryHackMe Dynamic Stats Dashboard" />
   </a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/OPERATIONAL_STATUS-ACTIVE_HUNTING-00ffcc?style=for-the-badge&logo=target&logoColor=00ffcc" />
-  <img src="https://img.shields.io/badge/THM_PROFILE-rsd177-cyan?style=for-the-badge&logo=tryhackme&logoColor=cyan" />
+  <a href="https://tryhackme.com/p/rsd177" target="_blank">
+    <img src="https://img.shields.io/badge/OPERATIONAL_STATUS-ACTIVE_HUNTING-00ffcc?style=for-the-badge&logo=target&logoColor=00ffcc" />
+  </a>
 </p>
 
 <blockquote align="center">
-  <g-emoji class="g-emoji" alias="trophy" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3c6.png">🏆</g-emoji> 
-  <b>SYSTEM LOG:</b> Verified Back-to-Back Top Leaderboard Dominance 
+  🎯 <b>THM SYSTEM LOG:</b> Verified Back-to-Back Weekly Leaderboard Cycles
   <br>
   <code>[⚡ #1 Bronze League &rarr; #1 Silver League 🔥]</code>
 </blockquote>
 
----
+
 ---
 
 ## Highlights Dashboard
