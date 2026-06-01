@@ -439,10 +439,20 @@ Consistent top performer across back-to-back weekly leaderboard cycles.
 </div>
 
 ---
+
+## `[root@soc-ops ~]# shutdown -h now`
+
+```diff
+- [SYS]  Closing threat intelligence feeds ........................... done
+- [SYS]  Archiving session logs ..................................... done
++ [SYS]  Operator offline · posture: HARDENED · trace: none
 ```
-[SYS]  Session terminated · logs archived · operator offline
-```
-> *"To know your enemy, you must become your enemy."*
-> — Sun Tzu
+
+<div align="center">
+
+> ### *"To know your enemy, you must become your enemy."*
+> #### — Sun Tzu
+
+</div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:0f3460,60:0a2540,100:0d1117&height=120&section=footer&reversal=true" width="100%"/>
