@@ -65,53 +65,123 @@ I don't collect theory. I build things, break things, and document everything:
 ---
 ## 🛡️ TRYHACKME OPERATIONAL DASHBOARD
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&text=rsd177%20%7C%20SOC%20%26%20THREAT%20HUNTING%20STATUS&fontSize=20&fontColor=00ffcc&height=60&width=800&stroke=00ffcc&strokeWidth=2" width="100%" />
-</p>
+<div style="background-color: #0d1117; border: 1px solid #30363d; border-radius: 6px; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
 
-<!-- COMPACT HIGH-END UI GRID -->
-<div align="center">
-  <table border="0" cellspacing="0" cellpadding="0" style="background-color: #0d1117; border-collapse: collapse;">
-    <tr>
-      <!-- GLOBAL RANK CARD -->
-      <td padding="10">
-        <img src="https://img.shields.io/badge/RANK-TOP%2015%25-00ffcc?style=for-the-badge&labelColor=161b22&color=00ffcc&logo=hackthebox&logoColor=00ffcc" height="42px" />
-      </td>
-      <!-- DAILY STREAK CARD -->
-      <td padding="10">
-        <img src="https://img.shields.io/badge/STREAK-21%20DAYS%20🔥-ff5500?style=for-the-badge&labelColor=161b22&color=ff5500" height="42px" />
-      </td>
-      <!-- COMPLETED ROOMS CARD -->
-      <td padding="10">
-        <img src="https://img.shields.io/badge/ROOMS-41%20CLEARED%20🎯-007acc?style=for-the-badge&labelColor=161b22&color=007acc" height="42px" />
-      </td>
-    </tr>
-  </table>
+  <!-- METRICS SECTION (TOP GRID) -->
+  <div align="center" style="margin-bottom: 30px;">
+    <table border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <!-- GLOBAL RANK -->
+        <td style="padding: 0 12px;">
+          <div style="background: linear-gradient(135deg, #0f172a, #1e293b); border: 1px solid #00ffcc; border-radius: 6px; padding: 12px 24px; text-align: center; min-width: 140px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+            <span style="color: #8b949e; font-size: 11px; font-weight: 600; text-transform: uppercase; display: block; margin-bottom: 4px; letter-spacing: 0.5px;">Global Rank</span>
+            <span style="color: #00ffcc; font-size: 22px; font-weight: bold; font-family: monospace;">Top 15%</span>
+          </div>
+        </td>
+        <!-- DAILY STREAK -->
+        <td style="padding: 0 12px;">
+          <div style="background: linear-gradient(135deg, #0f172a, #1e293b); border: 1px solid #ff5500; border-radius: 6px; padding: 12px 24px; text-align: center; min-width: 140px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+            <span style="color: #8b949e; font-size: 11px; font-weight: 600; text-transform: uppercase; display: block; margin-bottom: 4px; letter-spacing: 0.5px;">Current Streak</span>
+            <span style="color: #ff5500; font-size: 22px; font-weight: bold; font-family: monospace;">21 Days 🔥</span>
+          </div>
+        </td>
+        <!-- COMPLETED ROOMS -->
+        <td style="padding: 0 12px;">
+          <div style="background: linear-gradient(135deg, #0f172a, #1e293b); border: 1px solid #007acc; border-radius: 6px; padding: 12px 24px; text-align: center; min-width: 140px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+            <span style="color: #8b949e; font-size: 11px; font-weight: 600; text-transform: uppercase; display: block; margin-bottom: 4px; letter-spacing: 0.5px;">Completed Rooms</span>
+            <span style="color: #007acc; font-size: 22px; font-weight: bold; font-family: monospace;">41 Rooms 🚪</span>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <hr style="border: 0; border-top: 1px solid #30363d; margin: 25px 0;">
+
+  <!-- REAL VISUAL BADGES SECTION -->
+  <div align="center">
+    <span style="color: #c9d1d9; font-size: 14px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; display: block; margin-bottom: 25px;">🏅 EARNED SECURITY BADGES (8 OPERATIONAL)</span>
+    
+    <!-- GRID OF ACTUAL THM IMAGES -->
+    <table border="0" cellspacing="15" cellpadding="0">
+      <tr>
+        <!-- 1. Silver League (Rare) -->
+        <td align="center" valign="top" style="width: 100px;">
+          <a href="https://tryhackme.com/rsd177/badges/silver-league" target="_blank">
+            <img src="https://tryhackme-badges.s3.amazonaws.com/silver-league.png" width="65px" style="filter: drop-shadow(0 0 8px rgba(0,241,241,0.6));" alt="Silver League" />
+          </a>
+          <div style="font-size: 11px; color: #00f1f1; font-weight: bold; margin-top: 8px;">Silver League</div>
+          <code style="font-size: 9px; color: #8b949e;">Rare: 2.2%</code>
+        </td>
+        <!-- 2. Bronze League (Rare) -->
+        <td align="center" valign="top" style="width: 100px;">
+          <a href="https://tryhackme.com/rsd177/badges/bronze-league" target="_blank">
+            <img src="https://tryhackme-badges.s3.amazonaws.com/bronze-league.png" width="65px" style="filter: drop-shadow(0 0 6px rgba(205,127,50,0.5));" alt="Bronze League" />
+          </a>
+          <div style="font-size: 11px; color: #cd7f32; font-weight: bold; margin-top: 8px;">Bronze League</div>
+          <code style="font-size: 9px; color: #8b949e;">Rare: 5.1%</code>
+        </td>
+        <!-- 3. AI Odyssey (Epic Event) -->
+        <td align="center" valign="top" style="width: 100px;">
+          <a href="https://tryhackme.com/rsd177/badges/ai-odyssey" target="_blank">
+            <img src="https://tryhackme-badges.s3.amazonaws.com/ai-odyssey.png" width="65px" style="filter: drop-shadow(0 0 8px rgba(177,0,255,0.6));" alt="AI Odyssey" />
+          </a>
+          <div style="font-size: 11px; color: #b100ff; font-weight: bold; margin-top: 8px;">AI Odyssey</div>
+          <code style="font-size: 9px; color: #8b949e;">Epic: Event</code>
+        </td>
+        <!-- 4. cat linux.txt -->
+        <td align="center" valign="top" style="width: 100px;">
+          <a href="https://tryhackme.com/rsd177/badges/terminaled" target="_blank">
+            <img src="https://tryhackme-badges.s3.amazonaws.com/terminaled.png" width="65px" alt="cat linux.txt" />
+          </a>
+          <div style="font-size: 11px; color: #c9d1d9; font-weight: 500; margin-top: 8px;">cat linux.txt</div>
+          <code style="font-size: 9px; color: #8b949e;">Common: 29.8%</code>
+        </td>
+      </tr>
+      <tr>
+        <!-- 5. 7 Day Streak -->
+        <td align="center" valign="top" style="width: 100px;">
+          <a href="https://tryhackme.com/rsd177/badges/7-day-streak" target="_blank">
+            <img src="https://tryhackme-badges.s3.amazonaws.com/7-day-streak.png" width="65px" alt="7 Day Streak" />
+          </a>
+          <div style="font-size: 11px; color: #c9d1d9; font-weight: 500; margin-top: 8px;">7 Day Streak</div>
+          <code style="font-size: 9px; color: #8b949e;">Common: 21.6%</code>
+        </td>
+        <!-- 6. 3 Day Streak -->
+        <td align="center" valign="top" style="width: 100px;">
+          <a href="https://tryhackme.com/rsd177/badges/3-day-streak" target="_blank">
+            <img src="https://tryhackme-badges.s3.amazonaws.com/3-day-streak.png" width="65px" alt="3 Day Streak" />
+          </a>
+          <div style="font-size: 11px; color: #c9d1d9; font-weight: 500; margin-top: 8px;">3 Day Streak</div>
+          <code style="font-size: 9px; color: #8b949e;">Common: 33.5%</code>
+        </td>
+        <!-- 7. World Wide Web -->
+        <td align="center" valign="top" style="width: 100px;">
+          <a href="https://tryhackme.com/rsd177/badges/world-wide-web" target="_blank">
+            <img src="https://tryhackme-badges.s3.amazonaws.com/world-wide-web.png" width="65px" alt="World Wide Web" />
+          </a>
+          <div style="font-size: 11px; color: #c9d1d9; font-weight: 500; margin-top: 8px;">World Wide Web</div>
+          <code style="font-size: 9px; color: #8b949e;">Common: 21.2%</code>
+        </td>
+        <!-- 8. Webbed -->
+        <td align="center" valign="top" style="width: 100px;">
+          <a href="https://tryhackme.com/rsd177/badges/web-fund" target="_blank">
+            <img src="https://tryhackme-badges.s3.amazonaws.com/web-fund.png" width="65px" alt="Webbed" />
+          </a>
+          <div style="font-size: 11px; color: #c9d1d9; font-weight: 500; margin-top: 8px;">Webbed</div>
+          <code style="font-size: 9px; color: #8b949e;">Common: 23.9%</code>
+        </td>
+      </tr>
+    </table>
+  </div>
+
 </div>
 
-<br>
+<blockquote align="center">
+  🏆 <b>OPERATIONAL ACHIEVEMENT LOG:</b> Secured #1 Bronze League &rarr; #1 Silver League in Back-to-Back Weekly Leaderboard Cycles.
+</blockquote>
 
-<!-- LIVE BADGES DISPLAY BLOCK (CREATIVE REAL BADGES VISUALIZATION) -->
-<h3 align="center">🏅 DEPLOYED SECURITY BADGES (8 COLLECTED)</h3>
-<p align="center">
-  <!-- Intro Badge -->
-  <img src="https://img.shields.io/badge/Introduction_to_Cyber-Passed-00ffcc?style=flat-square&logo=linux&logoColor=00ffcc&labelColor=161b22" />
-  <!-- Network Security -->
-  <img src="https://img.shields.io/badge/Network_Security-Expert-blue?style=flat-square&logo=wireshark&logoColor=cyan&labelColor=161b22" />
-  <!-- Blue Team Badge -->
-  <img src="https://img.shields.io/badge/Blue_Team-Defensive_Ops-red?style=flat-square&logo=target&logoColor=red&labelColor=161b22" />
-  <!-- SOC Badge -->
-  <img src="https://img.shields.io/badge/SOC_Analyst-Verified-brightgreen?style=flat-square&logo=splunk&logoColor=brightgreen&labelColor=161b22" />
-  <br>
-  <!-- DFIR Badge -->
-  <img src="https://img.shields.io/badge/DFIR_Artifacts-Hunter-purple?style=flat-square&logo=powershell&logoColor=purple&labelColor=161b22" />
-  <!-- Pentest Badge -->
-  <img src="https://img.shields.io/badge/Penetration_Testing-Active-orange?style=flat-square&logo=kalilinux&logoColor=orange&labelColor=161b22" />
-  <!-- Scripting Badge -->
-  <img src="https://img.shields.io/badge/Security_Automation-Python-yellow?style=flat-square&logo=python&logoColor=yellow&labelColor=161b22" />
-  <!-- Web Security Badge -->
-  <img src="https://img.shields.io/badge/Web_Security-OWASP_Top_10-blueviolet?style=flat-square&logo=owasp&logoColor=white&labelColor=161b22" />
-</p>
+---
 
 ---
 
