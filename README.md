@@ -10,11 +10,15 @@
 [![Email](https://img.shields.io/badge/Email-Nouha.Sedraoui%40esprit.tn-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Nouha.Sedraoui@esprit.tn)
 ![Location](https://img.shields.io/badge/Tunisia-Ariana-20B2AA?style=for-the-badge&logo=google-maps&logoColor=white)
 
+<br/>
+
+![Profile Views](https://komarev.com/ghpvc/?username=nouhasedraoui&style=for-the-badge&color=0a84ff&label=PROFILE+VIEWS)
+&nbsp;
+[![GitHub followers](https://img.shields.io/github/followers/nouhasedraoui?label=FOLLOWERS&style=for-the-badge&color=0a84ff)](https://github.com/nouhasedraoui)
+
 </div>
 
 ---
-
-
 
 ## `[root@soc-ops ~]# yara -s ~/rules/operator_signature.yar /proc/memory_dump`
 
@@ -48,6 +52,7 @@ rule High_Value_Threat_Hunter {
 ```
 
 ---
+
 ## `[root@soc-ops ~]# dirb file:///home/operator/labs/ -ext .json,.yml`
 
 ```
@@ -84,11 +89,43 @@ rule High_Value_Threat_Hunter {
 ```
 
 ```
-[DIRB]  Scan complete. 4/4 artifacts verified. No access denied.
-
+[DIRB]  Scan complete. 5/5 artifacts verified. No access denied.
 ```
 
-## 🛡️ `[root@soc-ops ~]# ./thm_status.sh --operator rsd177`
+---
+
+## `[root@soc-ops ~]# cat /var/log/threat-intel/published.log`
+
+```diff
++ [INTEL]  Indexing published CVE research ............................ 🟢 3 entries found
++ [INTEL]  External publication detected — Medium @ryxocrypt ......... 🟢 confirmed
+```
+
+```diff
++ [CVE-2026-34197]  Apache ActiveMQ RCE
+    Severity  : CRITICAL
+    Hidden for 13 years — now actively exploited in the wild.
+    Published  : Medium @ryxocrypt — root cause · full attack chain · detection guidance
+    Link       : https://medium.com/@ryxocrypt
+
++ [CVE-2026-7482]  Bleeding Llama — OOB Read
+    Severity  : HIGH
+    300,000+ AI servers exposed.
+    Analysis   : github.com/nouhasedraoui/cybersecurity-portfolio
+
++ [cpanel-may-2026]  cPanel/WHM Triple CVE
+    Severity  : CRITICAL
+    Code execution + privilege escalation chain in cPanel/WHM.
+    Analysis   : github.com/nouhasedraoui/cybersecurity-portfolio
+```
+
+```
+[INTEL]  Threat intelligence feed: ACTIVE · next analysis: IN PROGRESS
+```
+
+---
+
+## `[root@soc-ops ~]# ./thm_status.sh --operator rsd177`
 
 ```bash
 [THM-API]  Querying TryHackMe operator profile: rsd177 ............. 🟢 200 OK
@@ -101,7 +138,6 @@ rule High_Value_Threat_Hunter {
 |:-----------:|:--------------:|:---------------:|
 | 🌐 **Top 15%** | 🔥 **21 Days** | 🚪 **41 Rooms** |
 
-
 ### 🏅 EARNED SECURITY BADGES (8 OPERATIONAL)
 
 | | | | |
@@ -113,112 +149,75 @@ rule High_Value_Threat_Hunter {
 
 </div>
 
-...
+---
 
-## ⚙️ `[root@soc-ops ~]# cat /etc/soc-os/arsenal.conf`
+## `[root@soc-ops ~]# cat /etc/soc-os/arsenal.conf`
 
-```bash
+```
 [ARSENAL]  Enumerating operator toolkit ................................ 🟢 done
 [ARSENAL]  Cross-referencing MITRE ATT&CK tool mappings ............... 🟢 complete
 ```
 
-### Languages
+```diff
++ [LANGUAGES]
+```
 
 | ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) | ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white) | ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white) | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) |
 |---|---|---|---|
 
-### SOC / SIEM
+```diff
++ [SOC / SIEM]
+```
 
 | ![Wazuh](https://img.shields.io/badge/Wazuh-005571?style=for-the-badge&logo=wazuh&logoColor=white) | ![Splunk](https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white) | ![Elastic Stack](https://img.shields.io/badge/Elastic_Stack-005571?style=for-the-badge&logo=elastic&logoColor=white) | ![MISP](https://img.shields.io/badge/MISP-1A3C5E?style=for-the-badge&logoColor=white) | ![TheHive](https://img.shields.io/badge/TheHive-FFBE00?style=for-the-badge&logoColor=black) |
 |---|---|---|---|---|
 
-### Penetration Testing
+```diff
++ [PENETRATION TESTING]
+```
 
 | ![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=portswigger&logoColor=white) | ![Nmap](https://img.shields.io/badge/Nmap-0E83CD?style=for-the-badge&logo=nmap&logoColor=white) | ![OWASP ZAP](https://img.shields.io/badge/OWASP_ZAP-00549E?style=for-the-badge&logo=owasp&logoColor=white) | ![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white) | ![SQLMap](https://img.shields.io/badge/SQLMap-CC0000?style=for-the-badge&logoColor=white) |
 |---|---|---|---|---|
 
-### DFIR / Network
+```diff
++ [DFIR / NETWORK]
+```
 
 | ![Autopsy](https://img.shields.io/badge/Autopsy_DFIR-2C3E50?style=for-the-badge&logoColor=white) | ![FTK Imager](https://img.shields.io/badge/FTK_Imager-4A4A4A?style=for-the-badge&logoColor=white) | ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white) | ![Volatility](https://img.shields.io/badge/Volatility-4A90D9?style=for-the-badge&logoColor=white) | ![Suricata](https://img.shields.io/badge/Suricata-EF3B2D?style=for-the-badge&logoColor=white) |
 |---|---|---|---|---|
 
-### DevSecOps / Cloud
+```diff
++ [DEVSECOPS / CLOUD]
+```
 
 | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) | ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white) | ![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white) | ![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white) | ![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=for-the-badge&logo=aquasecurity&logoColor=white) |
 |---|---|---|---|---|
 
+```
+[ARSENAL]  All modules loaded. Operator ready.
+```
+
 ---
 
-## 🗂️ `[root@soc-ops ~]# tree ~/cybersecurity-portfolio --depth 3`
-
-```bash
-[FS]  Rendering portfolio directory structure ......................... 🟢 done
-```
-
-```
-cybersecurity-portfolio/
-│
-├── web-application-security/
-│     ├── sql-injection/
-│     │     └── portswigger-sqli-notes.md          ← Full PortSwigger SQLi lab series
-│     └── server-side-vulnerabilities/
-│           └── portswigger-server-side-vulns-notes.md ← Path traversal, SSRF, file upload, cmdi
-│
-├── threat-intelligence/
-│     ├── CVEs/
-│     │     ├── cve-analysis-template.md
-│     │     ├── cpanel-cve-may-2026.md             ← Code exec + privesc in cPanel/WHM
-│     │     └── cve-2026-7482-bleeding-llama.md    ← OOB Read, 300k+ servers exposed
-│     ├── Webinaires & Podcasts/
-│     │     └── sans-moab-webcast-2026.md
-│     └── attack-techniques/supply-chain/
-│           └── typosquatting.md
-│
-├── soc-labs/
-│     ├── THM/                                      ← TryHackMe room notes
-│     └── splunk-bots/
-│           ├── botsv1-investigation-notes.md       ← Full Cerber v2 investigation
-│           └── botsv1_ransomware_investigation.pdf ← Final incident report (score: 16,193)
-│
-├── tools-and-scripts/
-│     ├── Python-Scripts/
-│     │     └── Own_ones/
-│     │           └── PyGhost-MAC.py               ← Custom MAC spoofing tool
-│     └── Bash-Scripts/
-│
-├── Certifications/
-│     ├── Fortigate/
-│     │     ├── fortigate-administrator-notes.md
-│     │     └── fcf-notes.md
-│
-└── resources/
-      ├── network_protocols_reference.md
-      └── useful-links.md
-```
-
-...
-
-
-## 🏆 `[root@soc-ops ~]# cat /etc/soc-os/certifications.db`
+## `[root@soc-ops ~]# cat /etc/soc-os/certifications.db`
 
 ```bash
 [CERT-DB]  Querying operator credential store ......................... 🟢 done
 [CERT-DB]  Verified issuers: Fortinet · Cisco · NVIDIA · Hedera
-[CERT-DB]  Displaying active clearances...
 ```
 
-| Certification | Issuer | Year |
-|--------------|--------|------|
-| Fortinet FCA — NSE 1 & NSE 2 Network Security Associate | Fortinet | 2026 |
-| Cybersecurity Defense Analyst Career Path (Splunk & Cisco) | Cisco Netacad | 2026 |
-| NVIDIA: Exploring Adversarial Machine Learning | NVIDIA | 2025 |
-| Certified Cybersecurity Educator Professional (CCEP) | — | 2025 |
-| Hedera Hashgraph Certified Developer | Hedera | 2024 |
-| Cisco CyberOps Associate (SecFund & SecOps) | Cisco Netacad | 2023 |
-| Cisco CCNA Security / Implementing Network Security | Cisco Netacad | 2023 |
+```diff
++ Fortinet NSE 1 & NSE 2 — Network Security Associate ............... 2026
++ Cybersecurity Defense Analyst Career Path (Splunk & Cisco) ........ 2026
++ NVIDIA: Exploring Adversarial Machine Learning .................... 2025
++ Certified Cybersecurity Educator Professional (CCEP) .............. 2025
++ Hedera Hashgraph Certified Developer .............................. 2024
++ Cisco CyberOps Associate (SecFund & SecOps) ....................... 2023
++ Cisco CCNA Security — Implementing Network Security ............... 2023
+```
 
 ```bash
-[CERT-DB]  In-progress pipeline  ETA 2027:
+[CERT-DB]  In-progress pipeline — ETA 2027:
            ├── CEH  (Certified Ethical Hacker) ..................... 🔵 IN PROGRESS
            ├── ISO/IEC 27001 Lead Auditor ......................... 🔵 IN PROGRESS
            └── Fortinet NSE 4 .................................... 🔵 IN PROGRESS
@@ -226,7 +225,7 @@ cybersecurity-portfolio/
 
 ---
 
-## 🧩 `[root@soc-ops ~]# ./thm_roomlog.sh --operator rsd177 --verbose`
+## `[root@soc-ops ~]# ./thm_roomlog.sh --operator rsd177 --verbose`
 
 ```bash
 [THM]   Operator rsd177: #1 Bronze League → #1 Silver League ......... 🟢 CONFIRMED
@@ -310,7 +309,7 @@ Consistent top performer across back-to-back weekly leaderboard cycles.
 
 ---
 
-## 📡 `[root@soc-ops ~]# git log --oneline --graph --all`
+## `[root@soc-ops ~]# git log --oneline --graph --all`
 
 <div align="center">
 
@@ -320,7 +319,7 @@ Consistent top performer across back-to-back weekly leaderboard cycles.
 
 ---
 
-## 📈 `[root@soc-ops ~]# ./sys_diagnostics.sh --module github-telemetry`
+## `[root@soc-ops ~]# ./sys_diagnostics.sh --module github-telemetry`
 
 ```bash
 [TELEMETRY]  Querying GitHub API ..................................... 🟢 rate limit OK
