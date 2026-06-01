@@ -60,16 +60,17 @@ I don't collect theory. I build things, break things, and document everything:
 - Published CVE analysis on Medium — in-depth breakdown of CVE-2026-34197, an Apache ActiveMQ RCE that sat hidden for 13 years and is now actively exploited
 - Ranked **#1 in Bronze League** and climbed to **#1 in Silver League** on TryHackMe within consecutive weeks
 
----
 
+
+---
 ## 🛡️ THM LIVE THREAT HUNTING OPERATIONAL DATA
 
 <p align="center">
   <a href="https://tryhackme.com/p/rsd177" target="_blank">
-    <!-- الرتبة العالمية الحية -->
-    <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=THM%20Global%20Rank&query=$.rank&url=https%3A%2F%2Ftryhackme.com%2Fapi%2Fv2%2Fpublic%2Fprofile%3Fusername%3Drsd177&color=00ffcc&logo=tryhackme" alt="THM Rank" />
-    <!-- المستوى الحالي الحي -->
-    <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=THM%20Level&query=$.level&url=https%3A%2F%2Ftryhackme.com%2Fapi%2Fv2%2Fpublic%2Fprofile%3Fusername%3Drsd177&color=01f1f1" alt="THM Level" />
+    <!-- شارة مخصصة ثابتة بألوان السيبراني -->
+    <img src="https://img.shields.io/badge/TRYHACKME-SILVER%20LEAGUE-00ffcc?style=for-the-badge&logo=tryhackme&logoColor=00ffcc&labelColor=111111" alt="THM Rank" />
+    <!-- شارة توضح الإنجاز الأخير -->
+    <img src="https://img.shields.io/badge/LEADERBOARD-BACK--TO--BACK%20%231-cyan?style=for-the-badge&logo=target&logoColor=cyan&labelColor=111111" alt="THM Achievement" />
   </a>
 </p>
 
@@ -80,7 +81,6 @@ I don't collect theory. I build things, break things, and document everything:
 </blockquote>
 
 ---
-
 
 ---
 
