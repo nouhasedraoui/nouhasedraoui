@@ -1,10 +1,6 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=0,0d1117,0d1117&height=120&section=header&bg_color=0d1117)
-
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=13&duration=1&pause=999999&color=00FF33&center=true&vCenter=true&multiline=true&repeat=false&width=750&height=110&lines=++++_++_+++___+++_++_+++_++_++++_++++++___++___++___+++___++++_++++___+++_++_+++___+;++++|+%5C|+|+%2F+_+%5C+|+|+|+|+|+|+|++%2F_%5C++++%2F+__||+__||+++%5C+|+_+%5C++%2F_%5C++%2F+_+%5C+|+|+|+|+|_+_|;++++|+.%60+||+(_)+||+|_|+|+|+__+|%2F+_+%5C+++%5C__+%5C|+_|+|+|)+||+++%2F+_+%5C|+(_)+||+|_|+|++|+|+;++++|_%7C%5C_|+%5C___%2F++%5C___%2F++|_||_||_%2F+%5C_%5C+|___%2F|___||___%2F+|_%7C_%5C%2F_+%5C_%5C___%2F++%5C___%2F++|___|" alt="NOUHA SEDRAOUI ASCII" />
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&pause=1000&color=2358A6&center=true&vCenter=true&width=600&lines=%E2%9A%A1+SECURITY+OPERATIONS+CENTER+%2F%2F+CORE+OPERATOR+NODE+%E2%9A%A1" alt="subtitle" />
+<img src="./banner.png" width="100%" alt="Nouha Sedraoui Terminal Banner"/>
 
 <br/>
 
@@ -18,7 +14,6 @@
 
 ---
 
----
 
 ---
 
