@@ -62,14 +62,16 @@ I don't collect theory. I build things, break things, and document everything:
 
 ---
 
-## 🛡️ TryHackMe Live Metrics
+## 🛡️ TRYHACKME LIVE METRICS
+
 <p align="center">
-  <a href="https://tryhackme.com/p/rsd177">
-    <img src="https://tryhackme-badges.vercel.app/api/user/badge/rsd177" alt="TryHackMe Badge" />
+  <a href="https://tryhackme.com/p/rsd177" target="_blank">
+    <img src="https://img.shields.io/badge/TryHackMe-rsd177-red?style=for-the-badge&logo=tryhackme" alt="TryHackMe Profile" />
+    <img src="https://img.shields.io/badge/Rank-Silver%20League-blue?style=for-the-badge" alt="TryHackMe Rank" />
   </a>
 </p>
 <p align="center">
-  <b>🏆 Achievements:</b> #1 Bronze League → #1 Silver League (Back-to-back weekly cycles)
+  <b>🏆 Operational Achievements:</b> #1 Bronze League &rarr; #1 Silver League (Back-to-back weekly leaderboard cycles)
 </p>
 ---
 
@@ -325,11 +327,22 @@ Consistent top performer across back-to-back weekly leaderboard cycles.
 
 ---
 
-## 📊 System Diagnostics (GitHub Stats)
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=nouhasedraoui&show_icons=true&theme=tokyonight&hide_border=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nouhasedraoui&layout=compact&theme=tokyonight&hide_border=true" width="40%" />
-</p>
+## 📊 SYSTEM DIAGNOSTICS (GITHUB STATS)
+
+<div align="center">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td align="center" valign="top">
+        <!-- STATS CARD (Official Safe Mirror) -->
+        <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=nouhasedraoui&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" width="420px" alt="GitHub Stats" />
+      </td>
+      <td align="center" valign="top">
+        <!-- LANGUAGES CARD (Official Safe Mirror) -->
+        <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=nouhasedraoui&layout=compact&theme=tokyonight&hide_border=true&langs_count=5" width="320px" alt="Top Languages" />
+      </td>
+    </tr>
+  </table>
+</div>
 
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:112240,100:0d1117&height=80&section=footer" width="100%"/>
