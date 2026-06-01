@@ -65,34 +65,53 @@ I don't collect theory. I build things, break things, and document everything:
 ---
 ## 🛡️ TRYHACKME OPERATIONAL DASHBOARD
 
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&text=rsd177%20%7C%20SOC%20%26%20THREAT%20HUNTING%20STATUS&fontSize=20&fontColor=00ffcc&height=60&width=800&stroke=00ffcc&strokeWidth=2" width="100%" />
+</p>
+
+<!-- COMPACT HIGH-END UI GRID -->
 <div align="center">
-  <!-- الصف الأول: الرتبة والـ Badges -->
-  <table border="0" cellspacing="10" cellpadding="0">
+  <table border="0" cellspacing="0" cellpadding="0" style="background-color: #0d1117; border-collapse: collapse;">
     <tr>
-      <td align="center">
-        <img src="https://img.shields.io/badge/RANK-TOP%2015%25-🏆%20%2300ffcc?style=for-the-badge&labelColor=0d1117&color=00ffcc" height="40px" />
+      <!-- GLOBAL RANK CARD -->
+      <td padding="10">
+        <img src="https://img.shields.io/badge/RANK-TOP%2015%25-00ffcc?style=for-the-badge&labelColor=161b22&color=00ffcc&logo=hackthebox&logoColor=00ffcc" height="42px" />
       </td>
-      <td align="center">
-        <img src="https://img.shields.io/badge/BADGES%20GAINED-8-🏅%20violet?style=for-the-badge&labelColor=0d1117&color=b100ff" height="40px" />
+      <!-- DAILY STREAK CARD -->
+      <td padding="10">
+        <img src="https://img.shields.io/badge/STREAK-21%20DAYS%20🔥-ff5500?style=for-the-badge&labelColor=161b22&color=ff5500" height="42px" />
       </td>
-    </tr>
-    <!-- الصف الثاني: الـ Streak والـ Rooms -->
-    <tr>
-      <td align="center">
-        <img src="https://img.shields.io/badge/DAILY%20STREAK-21%20DAYS-🔥%20orange?style=for-the-badge&labelColor=0d1117&color=ff5500" height="40px" />
-      </td>
-      <td align="center">
-        <img src="https://img.shields.io/badge/COMPLETED%20ROOMS-41-🚪%20blue?style=for-the-badge&labelColor=0d1117&color=007acc" height="40px" />
+      <!-- COMPLETED ROOMS CARD -->
+      <td padding="10">
+        <img src="https://img.shields.io/badge/ROOMS-41%20CLEARED%20🎯-007acc?style=for-the-badge&labelColor=161b22&color=007acc" height="42px" />
       </td>
     </tr>
   </table>
 </div>
 
-<blockquote align="center">
-  ⚡ <code>[CRITICAL INFRASTRUCTURE STATUS: VERIFIED OPTIMAL]</code> ⚡
+<br>
+
+<!-- LIVE BADGES DISPLAY BLOCK (CREATIVE REAL BADGES VISUALIZATION) -->
+<h3 align="center">🏅 DEPLOYED SECURITY BADGES (8 COLLECTED)</h3>
+<p align="center">
+  <!-- Intro Badge -->
+  <img src="https://img.shields.io/badge/Introduction_to_Cyber-Passed-00ffcc?style=flat-square&logo=linux&logoColor=00ffcc&labelColor=161b22" />
+  <!-- Network Security -->
+  <img src="https://img.shields.io/badge/Network_Security-Expert-blue?style=flat-square&logo=wireshark&logoColor=cyan&labelColor=161b22" />
+  <!-- Blue Team Badge -->
+  <img src="https://img.shields.io/badge/Blue_Team-Defensive_Ops-red?style=flat-square&logo=target&logoColor=red&labelColor=161b22" />
+  <!-- SOC Badge -->
+  <img src="https://img.shields.io/badge/SOC_Analyst-Verified-brightgreen?style=flat-square&logo=splunk&logoColor=brightgreen&labelColor=161b22" />
   <br>
-  <b>Latest Sync Report:</b> #1 Bronze League &rarr; #1 Silver League (Back-to-back weekly leaderboard dominance)
-</blockquote>
+  <!-- DFIR Badge -->
+  <img src="https://img.shields.io/badge/DFIR_Artifacts-Hunter-purple?style=flat-square&logo=powershell&logoColor=purple&labelColor=161b22" />
+  <!-- Pentest Badge -->
+  <img src="https://img.shields.io/badge/Penetration_Testing-Active-orange?style=flat-square&logo=kalilinux&logoColor=orange&labelColor=161b22" />
+  <!-- Scripting Badge -->
+  <img src="https://img.shields.io/badge/Security_Automation-Python-yellow?style=flat-square&logo=python&logoColor=yellow&labelColor=161b22" />
+  <!-- Web Security Badge -->
+  <img src="https://img.shields.io/badge/Web_Security-OWASP_Top_10-blueviolet?style=flat-square&logo=owasp&logoColor=white&labelColor=161b22" />
+</p>
 
 ---
 
