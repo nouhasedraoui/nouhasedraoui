@@ -196,6 +196,9 @@ cybersecurity-portfolio/
       └── useful-links.md
 ...
 
+...
+
+
 ## 🏆 `[root@soc-ops ~]# cat /etc/soc-os/certifications.db`
 
 ```bash
