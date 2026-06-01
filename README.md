@@ -18,19 +18,6 @@
 
 </div>
 
----
-
-<div align="center">
-
-[![About Me](https://img.shields.io/badge/〔_01_〕-ABOUT_ME-0d1117?style=for-the-badge&labelColor=0a84ff)](#-rootsoc-ops--yara--s-rulesoperator_signatureyar-procmemory_dump)
-[![Threat Intel](https://img.shields.io/badge/〔_02_〕-THREAT_INTEL-0d1117?style=for-the-badge&labelColor=cc0000)](#-rootsoc-ops--cat-varlogthreat-intellpublishedlog)
-[![Projects](https://img.shields.io/badge/〔_03_〕-PROJECTS-0d1117?style=for-the-badge&labelColor=1a7f37)](#-rootsoc-ops--dirb-filehomeoperatorlabs--ext-jsonyml)
-[![THM](https://img.shields.io/badge/〔_04_〕-THM-0d1117?style=for-the-badge&labelColor=c11111)](#-rootsoc-ops--thm_statussh---operator-rsd177)
-[![Arsenal](https://img.shields.io/badge/〔_05_〕-ARSENAL-0d1117?style=for-the-badge&labelColor=6f42c1)](#-rootsoc-ops--cat-etcsoc-osarsenalconf)
-[![Certs](https://img.shields.io/badge/〔_06_〕-CERTIFICATIONS-0d1117?style=for-the-badge&labelColor=e36209)](#-rootsoc-ops--cat-etcsoc-oscertificationsdb)
-[![GitHub](https://img.shields.io/badge/〔_07_〕-GITHUB-0d1117?style=for-the-badge&labelColor=333333)](#-rootsoc-ops--git-log---oneline---graph---all)
-
-</div>
 
 ---
 
