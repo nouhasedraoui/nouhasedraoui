@@ -62,98 +62,28 @@ I don't collect theory. I build things, break things, and document everything:
 
 
 
----
 ## 🛡️ TRYHACKME OPERATIONAL DASHBOARD
 
-<div style="background-color: #0d1117; border: 1px solid #30363d; border-radius: 6px; padding: 24px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
+<div align="center">
 
-  <!-- METRICS SECTION (TOP GRID) -->
-  <div align="center" style="margin-bottom: 30px;">
-    <table border="0" cellspacing="0" cellpadding="0">
-      <tr>
-        <!-- GLOBAL RANK -->
-        <td style="padding: 0 12px;">
-          <div style="background: linear-gradient(135deg, #0f172a, #1e293b); border: 1px solid #00ffcc; border-radius: 6px; padding: 12px 24px; text-align: center; min-width: 140px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-            <span style="color: #8b949e; font-size: 11px; font-weight: 600; text-transform: uppercase; display: block; margin-bottom: 4px; letter-spacing: 0.5px;">Global Rank</span>
-            <span style="color: #00ffcc; font-size: 22px; font-weight: bold; font-family: monospace;">Top 15%</span>
-          </div>
-        </td>
-        <!-- DAILY STREAK -->
-        <td style="padding: 0 12px;">
-          <div style="background: linear-gradient(135deg, #0f172a, #1e293b); border: 1px solid #ff5500; border-radius: 6px; padding: 12px 24px; text-align: center; min-width: 140px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-            <span style="color: #8b949e; font-size: 11px; font-weight: 600; text-transform: uppercase; display: block; margin-bottom: 4px; letter-spacing: 0.5px;">Current Streak</span>
-            <span style="color: #ff5500; font-size: 22px; font-weight: bold; font-family: monospace;">21 Days 🔥</span>
-          </div>
-        </td>
-        <!-- COMPLETED ROOMS -->
-        <td style="padding: 0 12px;">
-          <div style="background: linear-gradient(135deg, #0f172a, #1e293b); border: 1px solid #007acc; border-radius: 6px; padding: 12px 24px; text-align: center; min-width: 140px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-            <span style="color: #8b949e; font-size: 11px; font-weight: 600; text-transform: uppercase; display: block; margin-bottom: 4px; letter-spacing: 0.5px;">Completed Rooms</span>
-            <span style="color: #007acc; font-size: 22px; font-weight: bold; font-family: monospace;">41 Rooms 🚪</span>
-          </div>
-        </td>
-      </tr>
-    </table>
-  </div>
-
-  <hr style="border: 0; border-top: 1px solid #30363d; margin: 25px 0;">
-
-  <!-- REAL VISUAL BADGES SECTION -->
-  <div align="center">
-    <span style="color: #c9d1d9; font-size: 14px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; display: block; margin-bottom: 25px;">🏅 EARNED SECURITY BADGES (8 OPERATIONAL)</span>
-    
-  <div align="center">
-    <span style="color: #c9d1d9; font-size: 14px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; display: block; margin-bottom: 25px;">🏅 EARNED SECURITY BADGES (8 OPERATIONAL)</span>
-    
-    <table border="0" cellspacing="15" cellpadding="0">
-      <tr>
-        <td align="center" valign="top" style="width: 100px;">
-          <img src="https://img.shields.io/badge/-Silver_League-blue?style=flat&logo=tryhackme" alt="Silver League" />
-          <div style="font-size: 11px; color: #00f1f1; margin-top: 8px;">Silver League</div>
-        </td>
-        <td align="center" valign="top" style="width: 100px;">
-          <img src="https://img.shields.io/badge/-Bronze_League-orange?style=flat&logo=tryhackme" alt="Bronze League" />
-          <div style="font-size: 11px; color: #cd7f32; margin-top: 8px;">Bronze League</div>
-        </td>
-        <td align="center" valign="top" style="width: 100px;">
-          <img src="https://img.shields.io/badge/-AI_Odyssey-purple?style=flat&logo=tryhackme" alt="AI Odyssey" />
-          <div style="font-size: 11px; color: #b100ff; margin-top: 8px;">AI Odyssey</div>
-        </td>
-        <td align="center" valign="top" style="width: 100px;">
-          <img src="https://img.shields.io/badge/-Linux_Competent-grey?style=flat&logo=linux" alt="Linux" />
-          <div style="font-size: 11px; color: #c9d1d9; margin-top: 8px;">cat linux.txt</div>
-        </td>
-      </tr>
-      <tr>
-        <td align="center" valign="top" style="width: 100px;">
-          <img src="https://img.shields.io/badge/-7_Day_Streak-red?style=flat&logo=target" alt="7 Day Streak" />
-          <div style="font-size: 11px; color: #c9d1d9; margin-top: 8px;">7 Day Streak</div>
-        </td>
-        <td align="center" valign="top" style="width: 100px;">
-          <img src="https://img.shields.io/badge/-3_Day_Streak-orange?style=flat&logo=fire" alt="3 Day Streak" />
-          <div style="font-size: 11px; color: #c9d1d9; margin-top: 8px;">3 Day Streak</div>
-        </td>
-        <td align="center" valign="top" style="width: 100px;">
-          <img src="https://img.shields.io/badge/-Web_Basics-blue?style=flat&logo=google-chrome" alt="World Wide Web" />
-          <div style="font-size: 11px; color: #c9d1d9; margin-top: 8px;">WWW</div>
-        </td>
-        <td align="center" valign="top" style="width: 100px;">
-          <img src="https://img.shields.io/badge/-Webbed-green?style=flat&logo=serverfault" alt="Webbed" />
-          <div style="font-size: 11px; color: #c9d1d9; margin-top: 8px;">Webbed</div>
-        </td>
-      </tr>
-    </table>
-  </div>
-
-<blockquote align="center">
-  🏆 <b>OPERATIONAL ACHIEVEMENT LOG:</b> Secured #1 Bronze League &rarr; #1 Silver League in Back-to-Back Weekly Leaderboard Cycles.
-</blockquote>
+| Global Rank | Current Streak | Completed Rooms |
+|:-----------:|:--------------:|:---------------:|
+| 🌐 **Top 15%** | 🔥 **21 Days** | 🚪 **41 Rooms** |
 
 ---
 
----
+### 🏅 EARNED SECURITY BADGES (8 OPERATIONAL)
 
----
+| | | | |
+|:-:|:-:|:-:|:-:|
+| ![Silver League](https://img.shields.io/badge/-Silver_League-blue?style=flat&logo=tryhackme) | ![Bronze League](https://img.shields.io/badge/-Bronze_League-orange?style=flat&logo=tryhackme) | ![AI Odyssey](https://img.shields.io/badge/-AI_Odyssey-purple?style=flat&logo=tryhackme) | ![Linux](https://img.shields.io/badge/-Linux_Competent-grey?style=flat&logo=linux) |
+| Silver League | Bronze League | AI Odyssey | cat linux.txt |
+| ![7 Day Streak](https://img.shields.io/badge/-7_Day_Streak-red?style=flat&logo=target) | ![3 Day Streak](https://img.shields.io/badge/-3_Day_Streak-orange?style=flat&logo=fire) | ![Web Basics](https://img.shields.io/badge/-Web_Basics-blue?style=flat&logo=google-chrome) | ![Webbed](https://img.shields.io/badge/-Webbed-green?style=flat&logo=serverfault) |
+| 7 Day Streak | 3 Day Streak | WWW | Webbed |
+
+> 🏆 **OPERATIONAL ACHIEVEMENT LOG:** Secured #1 Bronze League → #1 Silver League in Back-to-Back Weekly Leaderboard Cycles.
+
+</div>
 
 ## Highlights Dashboard
 
