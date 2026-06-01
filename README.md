@@ -62,16 +62,15 @@ I don't collect theory. I build things, break things, and document everything:
 
 ---
 
-## TryHackMe — Live Stats
-
-<div align="center">
-
-[![TryHackMe](https://tryhackme-badges.vercel.app/api/user/badge/rsd177)](https://tryhackme.com/p/rsd177)
-
-**#1 Bronze League → #1 Silver League** — back-to-back weekly leaderboard cycles
-
-</div>
-
+## 🛡️ TryHackMe Live Metrics
+<p align="center">
+  <a href="https://tryhackme.com/p/rsd177">
+    <img src="https://tryhackme-badges.vercel.app/api/user/badge/rsd177" alt="TryHackMe Badge" />
+  </a>
+</p>
+<p align="center">
+  <b>🏆 Achievements:</b> #1 Bronze League → #1 Silver League (Back-to-back weekly cycles)
+</p>
 ---
 
 ## Highlights Dashboard
