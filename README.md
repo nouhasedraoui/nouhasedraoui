@@ -1,96 +1,75 @@
-<!-- ============================================================ -->
-<!--          SOC-OS :: BOOT SEQUENCE INITIATED                  -->
-<!-- ============================================================ -->
-
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,40:0a1628,70:071a2e,100:0d1117&height=12&section=header" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:0a2540,60:0f3460,100:0d1117&height=200&section=header&text=NOUHA%20SEDRAOUI&fontSize=52&fontColor=00d4ff&fontAlignY=38&desc=Cybersecurity%20Engineer%20%E2%80%A2%20SOC%20%E2%80%A2%20Threat%20Intelligence%20%E2%80%A2%20Web%20AppSec&descAlignY=60&descSize=15&descColor=7ecfff&animation=fadeIn" width="100%"/>
 
 <div align="center">
 
 ```
-███╗   ██╗ ██████╗ ██╗   ██╗██╗  ██╗ █████╗
-████╗  ██║██╔═══██╗██║   ██║██║  ██║██╔══██╗
-██╔██╗ ██║██║   ██║██║   ██║███████║███████║
-██║╚██╗██║██║   ██║██║   ██║██╔══██║██╔══██║
-██║ ╚████║╚██████╔╝╚██████╔╝██║  ██║██║  ██║
-╚═╝  ╚═══╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
-
-███████╗███████╗██████╗ ██████╗  █████╗  ██████╗ ██╗   ██╗██╗
-██╔════╝██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔═══██╗██║   ██║██║
-███████╗█████╗  ██║  ██║██████╔╝███████║██║   ██║██║   ██║██║
-╚════██║██╔══╝  ██║  ██║██╔══██╗██╔══██║██║   ██║██║   ██║██║
-███████║███████╗██████╔╝██║  ██║██║  ██║╚██████╔╝╚██████╔╝██║
-╚══════╝╚══════╝╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝
+  _   _  ___  _   _ _   _  _      ___  ___ ___  ___   _   ___  _   _ ___ 
+ | \ | |/ _ \| | | | | | |/ \    / __|/ __| _ \|   \ /_\ / _ \| | | |_ _|
+ |  \| | (_) | |_| | |_| / _ \   \__ \ (__|   /| |) / _ \ (_) | |_| || | 
+ |_|\__|\___/ \___/ \___/_/ \_\  |___/\___|_|_\|___/_/ \_\___/ \___/|___|
 ```
-
-</div>
-
-<div align="center">
-
-```
-╔══════════════════════════════════════════════════════════════════════════════╗
-║          SOC-OS v3.7.1 — SECURE OPERATIONS CENTER KERNEL LOADING            ║
-║          [CLASSIFIED] — AUTHORIZED ACCESS ONLY — TLP:WHITE                  ║
-╠══════════════════════════════════════════════════════════════════════════════╣
-║                                                                              ║
-║  [BIOS]   POST check passed ............................................. OK   ║
-║  [BOOT]   Loading SOC-OS kernel image .................................. OK   ║
-║  [INIT]   Mounting encrypted volumes /sec /ops /intel ................. OK   ║
-║  [INIT]   Starting entropy daemon (urandom) ........................... OK   ║
-║                                                                              ║
-║  [MOD]    Loading threat detection modules:                                  ║
-║           ├── wazuh-agent.ko        [SIEM / Active Response]    LOADED ✓    ║
-║           ├── elastic-stack.ko      [Log Aggregation / ELK]     LOADED ✓    ║
-║           ├── splunk-forwarder.ko   [Threat Hunting / BOTSv1]   LOADED ✓    ║
-║           └── suricata-ids.ko       [Network IDS / Ruleset 42]  LOADED ✓    ║
-║                                                                              ║
-║  [INTEL]  Pulling threat intelligence feeds:                                 ║
-║           ├── MISP feed sync .......................... 1,247 IOCs ingested  ║
-║           ├── CVE database refresh ................. 3 critical (0-day: 1)   ║
-║           ├── APT correlation rules .............. 91 TTPs mapped (MITRE)   ║
-║           └── Dark web monitor .............. no active mentions detected    ║
-║                                                                              ║
-║  [DFIR]   Initializing forensic toolkit:                                     ║
-║           ├── Autopsy ......................................... STANDBY ✓    ║
-║           ├── Volatility3 ..................................... STANDBY ✓    ║
-║           ├── FTK Imager ..................................... STANDBY ✓    ║
-║           └── Wireshark + Suricata PCAP engine ............... STANDBY ✓    ║
-║                                                                              ║
-║  [PENTEST] Loading offensive recon modules:                                  ║
-║           ├── Burp Suite Pro (PortSwigger) ................. ACTIVE ✓       ║
-║           ├── Metasploit Framework 6.x ..................... ACTIVE ✓       ║
-║           └── SQLMap / OWASP ZAP ........................... ACTIVE ✓       ║
-║                                                                              ║
-║  [AUTH]   Verifying operator credentials ...                                 ║
-║           ├── Identity    : Nouha Sedraoui                                   ║
-║           ├── Clearance   : SOC-ENGINEER // THREAT-HUNTER // WEB-APPSEC     ║
-║           ├── Location    : Ariana, Tunisia  [TZ: Africa/Tunis]             ║
-║           ├── Session key : 0xC8F3A2...E71D [AES-256-GCM]                  ║
-║           └── Access      : GRANTED ✓                                        ║
-║                                                                              ║
-║  [READY]  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 100%                  ║
-║                                                                              ║
-║  [SYS]    SOC-OS operational. Threat posture: ELEVATED.                      ║
-║           Welcome back, Nouha. All systems green. Stay sharp.               ║
-║                                                                              ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-```
-
-</div>
-
----
-
-<div align="center">
-
-# Nouha Sedraoui
-### Cybersecurity Engineer &nbsp;·&nbsp; SOC &nbsp;·&nbsp; Threat Intelligence &nbsp;·&nbsp; Web Application Security
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-sedraoui--nouha-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sedraoui-nouha)
 [![Medium](https://img.shields.io/badge/Medium-@ryxocrypt-000000?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@ryxocrypt)
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-rsd177-212C42?style=flat-square&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/rsd177)
 [![Email](https://img.shields.io/badge/Email-Nouha.Sedraoui@esprit.tn-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:Nouha.Sedraoui@esprit.tn)
-[![Location](https://img.shields.io/badge/Tunisia-Ariana-1DB954?style=flat-square)](.)
+[![Location](https://img.shields.io/badge/📍_Tunisia-Ariana-1DB954?style=flat-square)](.)
 
 </div>
+
+---
+
+```bash
+#!/usr/bin/env bash
+# ─────────────────────────────────────────────────────────────────────────────
+#  SOC-OS v3.7.1  |  OPERATOR SESSION INIT  |  TLP:WHITE
+#  Identity   : Nouha Sedraoui
+#  Clearance  : SOC-ENGINEER // THREAT-HUNTER // WEB-APPSEC
+#  Location   : Ariana, Tunisia  [TZ: Africa/Tunis]
+# ─────────────────────────────────────────────────────────────────────────────
+
+[BIOS]    POST check .................................................... 🟢 OK
+[BOOT]    Loading SOC-OS kernel image .................................. 🟢 OK
+[INIT]    Mounting encrypted volumes /sec /ops /intel .................. 🟢 OK
+[INIT]    Starting entropy daemon (urandom) ............................ 🟢 OK
+
+# ── THREAT DETECTION MODULES ─────────────────────────────────────────────────
+[MOD]     Loading security stack...
+          ├── wazuh-agent        SIEM + Active Response ............. 🟢 LOADED
+          ├── elastic-stack      Log Aggregation / ELK .............. 🟢 LOADED
+          ├── splunk-forwarder   Threat Hunting / BOTSv1 ............ 🟢 LOADED
+          └── suricata-ids       Network IDS / Ruleset 42 ........... 🟢 LOADED
+
+# ── THREAT INTELLIGENCE FEEDS ────────────────────────────────────────────────
+[INTEL]   Pulling live feeds...
+          ├── MISP sync .......................... 🟢  1,247 IOCs ingested
+          ├── CVE database refresh ............... ⚠️   3 critical  |  0-day: 1
+          ├── APT correlation rules .............. 🔵  91 TTPs mapped (MITRE)
+          └── Dark web monitor ................... 🟢  no active mentions detected
+
+# ── DFIR TOOLKIT ─────────────────────────────────────────────────────────────
+[DFIR]    Initializing forensic suite...
+          ├── Autopsy ................................................ 🟢 STANDBY
+          ├── Volatility3 ............................................ 🟢 STANDBY
+          ├── FTK Imager ............................................. 🟢 STANDBY
+          └── Wireshark + Suricata PCAP engine ....................... 🟢 STANDBY
+
+# ── OFFENSIVE RECON ──────────────────────────────────────────────────────────
+[PENTEST] Loading offensive modules...
+          ├── Burp Suite Pro (PortSwigger) ........................... 🟢 ACTIVE
+          ├── Metasploit Framework 6.x ............................... 🟢 ACTIVE
+          └── SQLMap / OWASP ZAP ..................................... 🟢 ACTIVE
+
+# ── AUTH ─────────────────────────────────────────────────────────────────────
+[AUTH]    Verifying operator credentials...
+          ├── Identity     : Nouha Sedraoui
+          ├── Clearance    : SOC-ENGINEER // THREAT-HUNTER // WEB-APPSEC
+          ├── Session key  : 0xC8F3A2...E71D  [AES-256-GCM]
+          └── Access       : 🟢 GRANTED
+
+[SYS]     SOC-OS operational.  Threat posture: ⚠️ ELEVATED.
+          Welcome back, Nouha. All systems green. Stay sharp. ▌
+```
 
 ---
 
@@ -110,9 +89,9 @@ I don't collect theory. I build things, break things, and document everything:
 
 ## 🛡️ `[root@soc-ops ~]# ./thm_status.sh --operator rsd177`
 
-```
-[THM-API]  Querying TryHackMe operator profile: rsd177
-[THM-API]  Response 200 OK — Dashboard loaded
+```bash
+[THM-API]  Querying TryHackMe operator profile: rsd177 ............. 🟢 200 OK
+[THM-API]  Dashboard loaded — rendering operator telemetry...
 ```
 
 <div align="center">
@@ -137,9 +116,9 @@ I don't collect theory. I build things, break things, and document everything:
 
 ## 📊 `[root@soc-ops ~]# ./render_dashboard.py --module highlights`
 
-```
-[DASHBOARD]  Compiling operational highlights... done.
-[DASHBOARD]  Rendering threat-hunting metrics and platform telemetry.
+```bash
+[DASHBOARD]  Compiling operational highlights ......................... 🟢 done
+[DASHBOARD]  Rendering threat-hunting metrics and platform telemetry... 🟢 done
 ```
 
 <div align="center">
@@ -159,8 +138,8 @@ I don't collect theory. I build things, break things, and document everything:
 
 ## 💼 `[root@soc-ops ~]# cat /var/log/career/experience.log`
 
-```
-[EXP-LOG]  Parsing operator field deployments...
+```bash
+[EXP-LOG]  Parsing operator field deployments ......................... 🟢 done
 [EXP-LOG]  3 engagements found — displaying chronological records.
 ```
 
@@ -180,9 +159,9 @@ Deployed the EyesOfNetwork monitoring suite (Nagios, Cacti, NagVis, Weathermap) 
 
 ## 🔬 `[root@soc-ops ~]# ls -la /projects/academic/`
 
-```
-[FS]  Mounting project archive... 4 entries found.
-[FS]  Access level: READ — displaying project metadata.
+```bash
+[FS]  Mounting project archive ........................................ 🟢 done
+[FS]  4 entries found — access level: READ
 ```
 
 **Healthcare SOC** `Dec 2023 – Jun 2024`
@@ -201,9 +180,9 @@ Performed a full forensic investigation on a compromised Windows machine using A
 
 ## ⚙️ `[root@soc-ops ~]# cat /etc/soc-os/arsenal.conf`
 
-```
-[ARSENAL]  Enumerating operator toolkit...
-[ARSENAL]  Cross-referencing MITRE ATT&CK tool mappings... complete.
+```bash
+[ARSENAL]  Enumerating operator toolkit ................................ 🟢 done
+[ARSENAL]  Cross-referencing MITRE ATT&CK tool mappings ............... 🟢 complete
 ```
 
 ### Languages
@@ -235,8 +214,8 @@ Performed a full forensic investigation on a compromised Windows machine using A
 
 ## 🗂️ `[root@soc-ops ~]# tree ~/cybersecurity-portfolio --depth 3`
 
-```
-[FS]  Rendering portfolio directory structure...
+```bash
+[FS]  Rendering portfolio directory structure ......................... 🟢 done
 ```
 
 ```
@@ -284,8 +263,8 @@ cybersecurity-portfolio/
 
 ## 🎯 `[root@soc-ops ~]# ./load_featured.sh --priority HIGH`
 
-```
-[FEATURED]  Indexing high-value operational artifacts...
+```bash
+[FEATURED]  Indexing high-value operational artifacts ................. 🟢 done
 [FEATURED]  7 entries flagged — rendering mission-critical work.
 ```
 
@@ -301,10 +280,10 @@ cybersecurity-portfolio/
 
 ---
 
-## ✍️ `[root@soc-ops ~]# curl -s https://medium.com/@ryxocrypt/feed | xmllint --format -`
+## ✍️ `[root@soc-ops ~]# curl -s https://medium.com/@ryxocrypt/feed`
 
-```
-[RSS]   Fetching threat intelligence publications from @ryxocrypt...
+```bash
+[RSS]   Fetching threat intelligence publications from @ryxocrypt .... 🟢 200 OK
 [RSS]   1 article published — high-severity CVE coverage confirmed.
 ```
 
@@ -319,10 +298,10 @@ More articles in progress.
 
 ## 🏆 `[root@soc-ops ~]# cat /etc/soc-os/certifications.db`
 
-```
-[CERT-DB]  Querying operator credential store...
+```bash
+[CERT-DB]  Querying operator credential store ......................... 🟢 done
 [CERT-DB]  Verified issuers: Fortinet · Cisco · NVIDIA · Hedera
-[CERT-DB]  Displaying active clearances:
+[CERT-DB]  Displaying active clearances...
 ```
 
 | Certification | Issuer | Year |
@@ -335,19 +314,19 @@ More articles in progress.
 | Cisco CyberOps Associate (SecFund & SecOps) | Cisco Netacad | 2023 |
 | Cisco CCNA Security / Implementing Network Security | Cisco Netacad | 2023 |
 
-```
-[CERT-DB]  In-progress pipeline (ETA 2027):
-           ├── CEH (Certified Ethical Hacker)
-           ├── ISO/IEC 27001 Lead Auditor
-           └── Fortinet NSE 4
+```bash
+[CERT-DB]  In-progress pipeline  ETA 2027:
+           ├── CEH  (Certified Ethical Hacker) ..................... 🔵 IN PROGRESS
+           ├── ISO/IEC 27001 Lead Auditor ......................... 🔵 IN PROGRESS
+           └── Fortinet NSE 4 .................................... 🔵 IN PROGRESS
 ```
 
 ---
 
 ## 🧩 `[root@soc-ops ~]# ./thm_roomlog.sh --operator rsd177 --verbose`
 
-```
-[THM]   Operator rsd177: #1 Bronze League → #1 Silver League
+```bash
+[THM]   Operator rsd177: #1 Bronze League → #1 Silver League ......... 🟢 CONFIRMED
 [THM]   Consecutive weekly leaderboard dominance confirmed.
 [THM]   Loading room completion manifest...
 ```
@@ -440,8 +419,8 @@ Consistent top performer across back-to-back weekly leaderboard cycles.
 
 ## 📈 `[root@soc-ops ~]# ./sys_diagnostics.sh --module github-telemetry`
 
-```
-[TELEMETRY]  Querying GitHub API... rate limit OK
+```bash
+[TELEMETRY]  Querying GitHub API ..................................... 🟢 rate limit OK
 [TELEMETRY]  Rendering operator commit statistics and language distribution.
 ```
 
@@ -460,67 +439,75 @@ Consistent top performer across back-to-back weekly leaderboard cycles.
 
 ---
 
-<!-- ============================================================ -->
-<!--          SOC-OS :: INCIDENT REPORT EXPORT + SHUTDOWN        -->
-<!-- ============================================================ -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--   FOOTER — INCIDENT REPORT INTEGRITY EXPORT                   -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:0a2540,100:0d1117&height=2" width="100%"/>
+
+```bash
+#!/usr/bin/env bash
+# ─────────────────────────────────────────────────────────────────────────────
+#  SOC-OS :: INCIDENT REPORT INTEGRITY EXPORT
+#  Session    : SOC-2026-NS-0x4F7A
+#  Operator   : nouhasedraoui  [ESPRIT · Tunisia]
+#  Class      : TLP:WHITE
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── SESSION SUMMARY ───────────────────────────────────────────────────────────
+[REPORT]  Compiling final session metrics...
+          ├── Threats hunted    : 3 CVEs analyzed · 1 kill chain reconstructed
+          ├── IOCs processed    : 1,247 indicators ingested via MISP
+          ├── Labs completed    : 41 TryHackMe rooms · BOTSv1 score 16,193
+          └── Posture rating    : 🟢 HARDENED — no operator vulnerabilities found
+
+# ── LOG SANITIZATION ──────────────────────────────────────────────────────────
+[DFIR]    Executing forensic cleanup...
+          ├── Flushing session artifacts from /tmp/soc-ops/ ......... 🟢 done
+          ├── Zeroing swap partitions  (DoD 5220.22-M) .............. 🟢 done
+          ├── Scrubbing volatile memory segments .................... 🟢 done
+          └── Audit trail archived → /var/log/soc/session.enc ....... 🟢 done
+
+# ── FEED TEARDOWN ─────────────────────────────────────────────────────────────
+[NET]     Disconnecting threat intelligence feeds...
+          ├── MISP feed ..................................... 🟢 SYNCED & CLOSED
+          ├── CVE stream .................................... 🟢 FLUSHED
+          ├── Suricata IDS .................................. 🟢 RULES SAVED · ENGINE HALTED
+          └── C2 watchdog ................................... 🟢 0 beacons detected this session
+
+# ── MODULE UNLOAD ─────────────────────────────────────────────────────────────
+[KERNEL]  Unloading SOC-OS modules in reverse order...
+          ├── suricata-ids.ko ............................... 🟢 UNLOADED
+          ├── splunk-forwarder.ko ........................... 🟢 UNLOADED
+          ├── elastic-stack.ko .............................. 🟢 UNLOADED
+          └── wazuh-agent.ko ................................ 🟢 UNLOADED
+```
+
+```bash
+# ── SHA-256 INTEGRITY MATRIX ──────────────────────────────────────────────────
+[CRYPTO]  Running report integrity verification...
+
+          Profile hash  (SHA-256):
+          ┌──────────────────────────────────────────────────────────────────┐
+          │  a9f3c8e2 b41d7056 f3c2e8a1 b94d0f7e                            │
+          │  3c5a91e2 d80b64f7 a2e15c3d 90b87f2a                            │
+          └──────────────────────────────────────────────────────────────────┘
+          Signature   : 🟢 VALID   [ED25519 · nouhasedraoui.pub]
+          Integrity   : 🟢 CONFIRMED — no tampering detected
+
+[SYS]     SOC-OS session closed. Threat posture preserved.
+          ▌ Until next engagement. — ryxocrypt
+```
 
 <div align="center">
 
-```
-╔══════════════════════════════════════════════════════════════════════════════╗
-║      SOC-OS :: INCIDENT REPORT EXPORT — SESSION TERMINATION SEQUENCE        ║
-║      CLASSIFICATION: TLP:WHITE  |  OPERATOR: nouhasedraoui                  ║
-╠══════════════════════════════════════════════════════════════════════════════╣
-║                                                                              ║
-║  [REPORT]  Compiling final session incident report...                        ║
-║                                                                              ║
-║  INCIDENT SUMMARY                                                            ║
-║  ├── Session ID      : SOC-2026-NS-0x4F7A                                   ║
-║  ├── Operator        : Nouha Sedraoui  [ESPRIT · Tunisia]                   ║
-║  ├── Session opened  : SOC-OS boot @ profile load                           ║
-║  ├── Threats hunted  : 3 CVEs analyzed · 1 kill chain reconstructed         ║
-║  ├── IOCs processed  : 1,247 indicators ingested via MISP                   ║
-║  ├── Labs completed  : 41 TryHackMe rooms · BOTSv1 score 16,193             ║
-║  └── Posture rating  : HARDENED — no operator vulnerabilities found         ║
-║                                                                              ║
-║  [DFIR]   Executing forensic cleanup procedures...                           ║
-║           ├── Flushing session artifacts from /tmp/soc-ops/  ...... done    ║
-║           ├── Zeroing swap partitions (DoD 5220.22-M) ............. done    ║
-║           ├── Scrubbing volatile memory segments ................... done    ║
-║           └── Audit trail archived → /var/log/soc/session.enc ..... done    ║
-║                                                                              ║
-║  [CRYPTO]  Running packet integrity verification...                          ║
-║            ├── Report hash  (SHA-256):                                       ║
-║            │   a9f3c8e2b41d7056f3c2e8a1b94d0f7e                             ║
-║            │   3c5a91e2d80b64f7a2e15c3d90b87f2a                             ║
-║            ├── Signature    : VALID ✓  [ED25519 · nouhasedraoui.pub]        ║
-║            └── Integrity    : CONFIRMED — no tampering detected ✓           ║
-║                                                                              ║
-║  [NET]    Disconnecting threat intelligence feeds...                         ║
-║           ├── MISP feed       → SYNCED & CLOSED ✓                           ║
-║           ├── CVE stream      → FLUSHED ✓                                   ║
-║           ├── Suricata IDS    → RULES SAVED · ENGINE HALTED ✓               ║
-║           └── C2 watchdog     → 0 beacons detected this session ✓           ║
-║                                                                              ║
-║  [KERNEL]  Unloading SOC-OS modules in reverse order...                      ║
-║            ├── suricata-ids.ko ........................... UNLOADED ✓        ║
-║            ├── splunk-forwarder.ko ....................... UNLOADED ✓        ║
-║            ├── elastic-stack.ko ......................... UNLOADED ✓        ║
-║            └── wazuh-agent.ko ........................... UNLOADED ✓        ║
-║                                                                              ║
-║  [POWER]   Initiating secure shutdown sequence...                            ║
-║            ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 100%                  ║
-║                                                                              ║
-║  [FINAL]   "The best defenders think like attackers.                         ║
-║             Document everything. Trust nothing. Stay curious."               ║
-║                              — Nouha Sedraoui, SOC-OS Operator               ║
-║                                                                              ║
-║  [SYS]     SOC-OS session closed. Threat posture preserved.                  ║
-║            Until next engagement. — ryxocrypt                               ║
-║                                                                              ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-```
+![Visitors](https://komarev.com/ghpvc/?username=nouhasedraoui&style=flat-square&color=0a84ff&label=PROFILE+VIEWS)
+&nbsp;
+[![GitHub followers](https://img.shields.io/github/followers/nouhasedraoui?label=FOLLOWERS&style=flat-square&color=0a84ff)](https://github.com/nouhasedraoui)
+
+> *"The best defenders think like attackers. Document everything. Trust nothing. Stay curious."*
+> — **Nouha Sedraoui**, SOC-OS Operator
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,50:071a2e,100:0d1117&height=12&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:0f3460,60:0a2540,100:0d1117&height=120&section=footer&reversal=true" width="100%"/>
