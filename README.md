@@ -63,21 +63,35 @@ I don't collect theory. I build things, break things, and document everything:
 
 
 ---
-## 🛡️ THM LIVE THREAT HUNTING OPERATIONAL DATA
+## 🛡️ TRYHACKME OPERATIONAL DASHBOARD
 
-<p align="center">
-  <a href="https://tryhackme.com/p/rsd177" target="_blank">
-    <!-- شارة مخصصة ثابتة بألوان السيبراني -->
-    <img src="https://img.shields.io/badge/TRYHACKME-SILVER%20LEAGUE-00ffcc?style=for-the-badge&logo=tryhackme&logoColor=00ffcc&labelColor=111111" alt="THM Rank" />
-    <!-- شارة توضح الإنجاز الأخير -->
-    <img src="https://img.shields.io/badge/LEADERBOARD-BACK--TO--BACK%20%231-cyan?style=for-the-badge&logo=target&logoColor=cyan&labelColor=111111" alt="THM Achievement" />
-  </a>
-</p>
+<div align="center">
+  <!-- الصف الأول: الرتبة والـ Badges -->
+  <table border="0" cellspacing="10" cellpadding="0">
+    <tr>
+      <td align="center">
+        <img src="https://img.shields.io/badge/RANK-TOP%2015%25-🏆%20%2300ffcc?style=for-the-badge&labelColor=0d1117&color=00ffcc" height="40px" />
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/BADGES%20GAINED-8-🏅%20violet?style=for-the-badge&labelColor=0d1117&color=b100ff" height="40px" />
+      </td>
+    </tr>
+    <!-- الصف الثاني: الـ Streak والـ Rooms -->
+    <tr>
+      <td align="center">
+        <img src="https://img.shields.io/badge/DAILY%20STREAK-21%20DAYS-🔥%20orange?style=for-the-badge&labelColor=0d1117&color=ff5500" height="40px" />
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/COMPLETED%20ROOMS-41-🚪%20blue?style=for-the-badge&labelColor=0d1117&color=007acc" height="40px" />
+      </td>
+    </tr>
+  </table>
+</div>
 
 <blockquote align="center">
-  🎯 <b>THM SYSTEM LOG:</b> Verified Back-to-Back Weekly Leaderboard Cycles
+  ⚡ <code>[CRITICAL INFRASTRUCTURE STATUS: VERIFIED OPTIMAL]</code> ⚡
   <br>
-  <code>[⚡ #1 Bronze League &rarr; #1 Silver League 🔥]</code>
+  <b>Latest Sync Report:</b> #1 Bronze League &rarr; #1 Silver League (Back-to-back weekly leaderboard dominance)
 </blockquote>
 
 ---
