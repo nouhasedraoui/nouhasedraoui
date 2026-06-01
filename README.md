@@ -48,51 +48,44 @@ rule High_Value_Threat_Hunter {
 ```
 
 ---
-
 ## `[root@soc-ops ~]# dirb file:///home/operator/labs/ -ext .json,.yml`
 
 ```
 [DIRB]  Scanning local artifact store .................................. 🟢 done
-[DIRB]  6 high-value entries discovered
+[DIRB]  4 high-value entries discovered
 ```
 
-```
-==> /labs/CyberAudit_Pro/
+```diff
++ ==> /labs/CyberAudit_Pro/
     [+] ai_pipeline.json
         "AI-driven audit platform — 14 tools unified under Django,
          multi-model pipeline (DeepSeek · Grok · Llama · Mistral),
          ISO 27001-aligned, offline privacy-preserving mode."
 
-==> /labs/SOC_Infrastructure/
++ ==> /labs/SOC_Infrastructure/
     [+] soc_deployment.json
         "Full SOC built with Wazuh + ELK Stack — APT correlation rules,
          Active Response automation, MISP threat intelligence integration."
 
-==> /labs/DevSecOps_Pipeline/
++ ==> /labs/DevSecOps_Pipeline/
     [+] pipeline_policy.yml
         "Secured Spring Boot CI/CD — SonarQube · Trivy · OWASP Dep-Check
          enforced as policy gates in Jenkins & GitLab CI."
 
-==> /labs/Threat_Intelligence/CVEs/
-    [+] cve-2026-34197.md  ──  Apache ActiveMQ RCE · 13-year hidden bug · actively exploited
-    [+] cpanel-cve-may-2026.md  ──  Code exec + privilege escalation in cPanel/WHM
-    [+] cve-2026-7482-bleeding-llama.md  ──  OOB Read · 300k+ AI servers exposed
++ ==> /labs/Active_Directory_IAM/
+    [+] ad_hardening.json
+        "Deployed and hardened Windows AD — PingCastle posture scoring,
+         Keycloak federated identity and SSO management."
 
-==> /labs/SOC_Labs/splunk-bots/
-    [+] botsv1_ransomware_investigation.pdf
-        "Cerber v2 full kill chain — Sysmon · Suricata · stream:dns · stream:smb
-         Score: 16,193 · zero penalties · both scenarios completed."
-
-==> /labs/Web_Application_Security/
-    [+] portswigger-sqli-notes.md  ──  Full SQLi lab series documented
-    [+] portswigger-server-side-vulns-notes.md  ──  Path traversal · SSRF · file upload · CMDi
-
-==> /labs/Tools_and_Scripts/
-    [+] PyGhost-MAC.py  ──  Custom Python MAC spoofing tool
++ ==> /labs/Forensics_Investigation/
+    [+] case_report.json
+        "Full Windows forensic investigation — Autopsy · FTK Imager · Volatility
+         complete attack timeline reconstructed."
 ```
 
 ```
-[DIRB]  Scan complete. All artifacts verified. No access denied.
+[DIRB]  Scan complete. 4/4 artifacts verified. No access denied.
+
 ```
 
 ## 🛡️ `[root@soc-ops ~]# ./thm_status.sh --operator rsd177`
