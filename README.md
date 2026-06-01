@@ -1,26 +1,8 @@
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:0a2540,60:0f3460,100:0d1117&height=200&section=header&text=NOUHA%20SEDRAOUI&fontSize=52&fontColor=00d4ff&fontAlignY=38&desc=Cybersecurity%20Engineer%20%E2%80%A2%20SOC%20%E2%80%A2%20Threat%20Intelligence%20%E2%80%A2%20Web%20AppSec&descAlignY=60&descSize=15&descColor=7ecfff&animation=fadeIn" width="100%"/>
 
-```
-![header](https://capsule-render.vercel.app/api?type=waving&color=00ff33&height=120&section=header&text=%5Broot%40soc-ops%3A~%5D%23&fontColor=00ff33&fontSize=20&fontAlignY=35&desc=Cybersecurity%20Engineer%20%E2%80%A2%20SOC%20%E2%80%A2%20Threat%20Intelligence%20%E2%80%A2%20Web%20AppSec&descColor=8b949e&descSize=14&descAlignY=65&animation=twinkling&bg_color=0d1117)
 
-<div align="center">
 
-```
- _  _   ___   _  _   _  _    _      ___  ___  ___   ___    _    ___   _  _   ___ 
-| \| | / _ \ | | | | | | |  /_\    / __|| __||   \ | _ \  /_\  / _ \ | | | | |_ _|
-| .` || (_) || |_| | | __ | / _ \   \__ \| _| | |) ||   / / _ \| (_) || |_| |  | | 
-|_|\_| \___/  \___/  |_||_||_/ \_\  |___/|___||___/ |_|_\/_/ \_\\___/  \___/  |___|
-```
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1000&color=00FF33&center=true&vCenter=true&width=600&lines=Cybersecurity+Engineer+%7C+SOC+Analyst;Threat+Intelligence+%7C+Web+AppSec;%5BSTATUS%3A+ACTIVE%5D+%E2%80%94+Hunting+Threats)](https://git.io/typing-svg)
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-sedraoui--nouha-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sedraoui-nouha)
-[![Medium](https://img.shields.io/badge/Medium-%40ryxocrypt-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@ryxocrypt)
-[![GitHub](https://img.shields.io/badge/GitHub-nouhasedraoui-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nouhasedraoui)
-[![Email](https://img.shields.io/badge/Email-Nouha.Sedraoui%40esprit.tn-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Nouha.Sedraoui@esprit.tn)
-![Location](https://img.shields.io/badge/Tunisia-Ariana-20B2AA?style=for-the-badge&logo=google-maps&logoColor=white)
-
-</div>
 
 ---
 ---
