@@ -1,12 +1,22 @@
+![header](https://capsule-render.vercel.app/api?type=waving&color=00ff33&height=150&section=header&fontColor=00ff33&fontSize=20&fontAlignY=35&desc=Cybersecurity+Engineer+%7C+SOC+%7C+Threat+Intelligence+%7C+Web+AppSec&descColor=8b949e&descSize=15&descAlignY=62&animation=twinkling&bg_color=0d1117)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:0a2540,60:0f3460,100:0d1117&height=200&section=header&text=NOUHA%20SEDRAOUI&fontSize=52&fontColor=00d4ff&fontAlignY=38&desc=Cybersecurity%20Engineer%20%E2%80%A2%20SOC%20%E2%80%A2%20Threat%20Intelligence%20%E2%80%A2%20Web%20AppSec&descAlignY=60&descSize=15&descColor=7ecfff&animation=fadeIn" width="100%"/>
+<div align="center">
 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=00FF33&center=true&vCenter=true&width=700&lines=NOUHA+SEDRAOUI;Cybersecurity+Engineer;SOC+Analyst+%7C+Threat+Intel;Web+Application+Security)](https://git.io/typing-svg)
 
+<br/>
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-sedraoui--nouha-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sedraoui-nouha)
+[![Medium](https://img.shields.io/badge/Medium-%40ryxocrypt-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@ryxocrypt)
+[![GitHub](https://img.shields.io/badge/GitHub-nouhasedraoui-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nouhasedraoui)
+[![Email](https://img.shields.io/badge/Email-Nouha.Sedraoui%40esprit.tn-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Nouha.Sedraoui@esprit.tn)
+![Location](https://img.shields.io/badge/Tunisia-Ariana-20B2AA?style=for-the-badge&logo=google-maps&logoColor=white)
+
+</div>
+
+![footer](https://capsule-render.vercel.app/api?type=rect&color=00ff33&height=2&section=header&bg_color=0d1117)
 
 ---
----
-
 
 ---
 
