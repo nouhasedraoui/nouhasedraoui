@@ -194,7 +194,7 @@ cybersecurity-portfolio/
 └── resources/
       ├── network_protocols_reference.md
       └── useful-links.md
-...
+```
 
 ...
 
