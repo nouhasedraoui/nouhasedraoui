@@ -1,6 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:0a2540,60:0f3460,100:0d1117&height=200&section=header&text=NOUHA%20SEDRAOUI&fontSize=52&fontColor=00d4ff&fontAlignY=38&desc=Cybersecurity%20Engineer%20%E2%80%A2%20SOC%20%E2%80%A2%20Threat%20Intelligence%20%E2%80%A2%20Web%20AppSec&descAlignY=60&descSize=15&descColor=7ecfff&animation=fadeIn" width="100%"/>
 
-<div align="center">
 
 ```
   _   _  ___  _   _ _   _  _      ___  ___ ___  ___   _   ___  _   _ ___ 
