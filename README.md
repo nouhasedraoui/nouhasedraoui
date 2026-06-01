@@ -325,70 +325,11 @@ Consistent top performer across back-to-back weekly leaderboard cycles.
 
 ---
 
-## GitHub Stats
+## 📊 System Diagnostics (GitHub Stats)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=nouhasedraoui&show_icons=true&theme=tokyonight&hide_border=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nouhasedraoui&layout=compact&theme=tokyonight&hide_border=true" width="40%" />
+</p>
 
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=nouhasedraoui&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9)
-&nbsp;&nbsp;
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nouhasedraoui&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9)
-
-</div>
-
----
-
-## Setup Instructions
-
-### Snake Action Setup
-
-Create `.github/workflows/snake.yml` in your `nouhasedraoui/nouhasedraoui` repository:
-
-```yaml
-name: Generate Contribution Snake
-
-on:
-  schedule:
-    - cron: '0 0 * * *'
-  workflow_dispatch:
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: nouhasedraoui
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - name: Push output to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-Go to **Actions → Generate Contribution Snake → Run workflow** once to initialize it. The SVG at the top of this README will then load automatically.
-
-### Fix Language Stats
-
-Add a `.gitattributes` file to the root of your `cybersecurity-portfolio` repo:
-
-```
-*.html linguist-documentation=true
-```
-
-This tells GitHub Linguist to exclude HTML files so your stats show Python and Bash as primary languages.
-
----
-
-<div align="center">
-
-*Everything here is real lab work and hands-on analysis — updated regularly*
-
-</div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:112240,100:0d1117&height=80&section=footer" width="100%"/>
