@@ -439,76 +439,10 @@ Consistent top performer across back-to-back weekly leaderboard cycles.
 </div>
 
 ---
-
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!--   FOOTER — INCIDENT REPORT INTEGRITY EXPORT                   -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:0a2540,100:0d1117&height=2" width="100%"/>
-
-```bash
-#!/usr/bin/env bash
-# ─────────────────────────────────────────────────────────────────────────────
-#  SOC-OS :: INCIDENT REPORT INTEGRITY EXPORT
-#  Session    : SOC-2026-NS-0x4F7A
-#  Operator   : nouhasedraoui  [ESPRIT · Tunisia]
-#  Class      : TLP:WHITE
-# ─────────────────────────────────────────────────────────────────────────────
-
-# ── SESSION SUMMARY ───────────────────────────────────────────────────────────
-[REPORT]  Compiling final session metrics...
-          ├── Threats hunted    : 3 CVEs analyzed · 1 kill chain reconstructed
-          ├── IOCs processed    : 1,247 indicators ingested via MISP
-          ├── Labs completed    : 41 TryHackMe rooms · BOTSv1 score 16,193
-          └── Posture rating    : 🟢 HARDENED — no operator vulnerabilities found
-
-# ── LOG SANITIZATION ──────────────────────────────────────────────────────────
-[DFIR]    Executing forensic cleanup...
-          ├── Flushing session artifacts from /tmp/soc-ops/ ......... 🟢 done
-          ├── Zeroing swap partitions  (DoD 5220.22-M) .............. 🟢 done
-          ├── Scrubbing volatile memory segments .................... 🟢 done
-          └── Audit trail archived → /var/log/soc/session.enc ....... 🟢 done
-
-# ── FEED TEARDOWN ─────────────────────────────────────────────────────────────
-[NET]     Disconnecting threat intelligence feeds...
-          ├── MISP feed ..................................... 🟢 SYNCED & CLOSED
-          ├── CVE stream .................................... 🟢 FLUSHED
-          ├── Suricata IDS .................................. 🟢 RULES SAVED · ENGINE HALTED
-          └── C2 watchdog ................................... 🟢 0 beacons detected this session
-
-# ── MODULE UNLOAD ─────────────────────────────────────────────────────────────
-[KERNEL]  Unloading SOC-OS modules in reverse order...
-          ├── suricata-ids.ko ............................... 🟢 UNLOADED
-          ├── splunk-forwarder.ko ........................... 🟢 UNLOADED
-          ├── elastic-stack.ko .............................. 🟢 UNLOADED
-          └── wazuh-agent.ko ................................ 🟢 UNLOADED
 ```
-
-```bash
-# ── SHA-256 INTEGRITY MATRIX ──────────────────────────────────────────────────
-[CRYPTO]  Running report integrity verification...
-
-          Profile hash  (SHA-256):
-          ┌──────────────────────────────────────────────────────────────────┐
-          │  a9f3c8e2 b41d7056 f3c2e8a1 b94d0f7e                            │
-          │  3c5a91e2 d80b64f7 a2e15c3d 90b87f2a                            │
-          └──────────────────────────────────────────────────────────────────┘
-          Signature   : 🟢 VALID   [ED25519 · nouhasedraoui.pub]
-          Integrity   : 🟢 CONFIRMED — no tampering detected
-
-[SYS]     SOC-OS session closed. Threat posture preserved.
-          ▌ Until next engagement. — ryxocrypt
+[SYS]  Session terminated · logs archived · operator offline
 ```
-
-<div align="center">
-
-![Visitors](https://komarev.com/ghpvc/?username=nouhasedraoui&style=flat-square&color=0a84ff&label=PROFILE+VIEWS)
-&nbsp;
-[![GitHub followers](https://img.shields.io/github/followers/nouhasedraoui?label=FOLLOWERS&style=flat-square&color=0a84ff)](https://github.com/nouhasedraoui)
-
-> *"The best defenders think like attackers. Document everything. Trust nothing. Stay curious."*
-> — **Nouha Sedraoui**, SOC-OS Operator
-
-</div>
+> *"To know your enemy, you must become your enemy."*
+> — Sun Tzu
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:0f3460,60:0a2540,100:0d1117&height=120&section=footer&reversal=true" width="100%"/>
