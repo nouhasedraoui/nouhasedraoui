@@ -15,75 +15,85 @@
 ---
 
 
----
 
-```bash
-#!/usr/bin/env bash
-# ─────────────────────────────────────────────────────────────────────────────
-#  SOC-OS v3.7.1  |  OPERATOR SESSION INIT  |  TLP:WHITE
-#  Identity   : Nouha Sedraoui
-#  Clearance  : SOC-ENGINEER // THREAT-HUNTER // WEB-APPSEC
-#  Location   : Ariana, Tunisia  [TZ: Africa/Tunis]
-# ─────────────────────────────────────────────────────────────────────────────
+## `[root@soc-ops ~]# yara -s ~/rules/operator_signature.yar /proc/memory_dump`
 
-[BIOS]    POST check .................................................... 🟢 OK
-[BOOT]    Loading SOC-OS kernel image .................................. 🟢 OK
-[INIT]    Mounting encrypted volumes /sec /ops /intel .................. 🟢 OK
-[INIT]    Starting entropy daemon (urandom) ............................ 🟢 OK
+```
+[YARA]  Scanning ....................................................... 🟢 MATCH FOUND
+```
 
-# ── THREAT DETECTION MODULES ─────────────────────────────────────────────────
-[MOD]     Loading security stack...
-          ├── wazuh-agent        SIEM + Active Response ............. 🟢 LOADED
-          ├── elastic-stack      Log Aggregation / ELK .............. 🟢 LOADED
-          ├── splunk-forwarder   Threat Hunting / BOTSv1 ............ 🟢 LOADED
-          └── suricata-ids       Network IDS / Ruleset 42 ........... 🟢 LOADED
+```yara
+rule High_Value_Threat_Hunter {
+    meta:
+        operator     = "Nouha Sedraoui"
+        role         = "Cybersecurity Engineer — SOC · AppSec · DevSecOps"
+        location     = "Ariana, Tunisia"
+        contact      = "Nouha.Sedraoui@esprit.tn"
+        motto        = "Trust nothing. Monitor everything. Document everything."
+    strings:
+        $soc         = "Wazuh · ELK Stack · MISP · Active Response Automation"
+        $appsec      = "Burp Suite · OWASP ZAP · SQLMap · Nuclei · Nikto"
+        $ai_sec      = "DeepSeek · Grok · Llama · Qwen · Mistral via Ollama"
+        $scripting   = "Python · PowerShell · Bash"
+        $highlight_1 = "Splunk BOTSv1 — 16,193 pts · zero penalties · full Cerber v2 kill chain"
+        $highlight_2 = "3 CVE analyses published · 1 Medium article · active threat intel researcher"
+    condition:
+        all of them
+}
+```
 
-# ── THREAT INTELLIGENCE FEEDS ────────────────────────────────────────────────
-[INTEL]   Pulling live feeds...
-          ├── MISP sync .......................... 🟢  1,247 IOCs ingested
-          ├── CVE database refresh ............... ⚠️   3 critical  |  0-day: 1
-          ├── APT correlation rules .............. 🔵  91 TTPs mapped (MITRE)
-          └── Dark web monitor ................... 🟢  no active mentions detected
-
-# ── DFIR TOOLKIT ─────────────────────────────────────────────────────────────
-[DFIR]    Initializing forensic suite...
-          ├── Autopsy ................................................ 🟢 STANDBY
-          ├── Volatility3 ............................................ 🟢 STANDBY
-          ├── FTK Imager ............................................. 🟢 STANDBY
-          └── Wireshark + Suricata PCAP engine ....................... 🟢 STANDBY
-
-# ── OFFENSIVE RECON ──────────────────────────────────────────────────────────
-[PENTEST] Loading offensive modules...
-          ├── Burp Suite Pro (PortSwigger) ........................... 🟢 ACTIVE
-          ├── Metasploit Framework 6.x ............................... 🟢 ACTIVE
-          └── SQLMap / OWASP ZAP ..................................... 🟢 ACTIVE
-
-# ── AUTH ─────────────────────────────────────────────────────────────────────
-[AUTH]    Verifying operator credentials...
-          ├── Identity     : Nouha Sedraoui
-          ├── Clearance    : SOC-ENGINEER // THREAT-HUNTER // WEB-APPSEC
-          ├── Session key  : 0xC8F3A2...E71D  [AES-256-GCM]
-          └── Access       : 🟢 GRANTED
-
-[SYS]     SOC-OS operational.  Threat posture: ⚠️ ELEVATED.
-          Welcome back, Nouha. All systems green. Stay sharp. ▌
+```
+[YARA]  Classification  : Threat Hunter · SOC Builder · Security Researcher
+[YARA]  Operator status : 🟢 ACTIVE — no vulnerabilities found in operator posture
 ```
 
 ---
 
-## ⚡ `[root@soc-ops ~]# cat who_am_i.log`
+## `[root@soc-ops ~]# dirb file:///home/operator/labs/ -ext .json,.yml`
 
-I'm a Cybersecurity Engineering graduate from ESPRIT Tunisia (specialization: Network Infrastructure and Data Security), working at the intersection of threat detection, SOC operations, and web application security.
+```
+[DIRB]  Scanning local artifact store .................................. 🟢 done
+[DIRB]  6 high-value entries discovered
+```
 
-I don't collect theory. I build things, break things, and document everything:
+```
+==> /labs/CyberAudit_Pro/
+    [+] ai_pipeline.json
+        "AI-driven audit platform — 14 tools unified under Django,
+         multi-model pipeline (DeepSeek · Grok · Llama · Mistral),
+         ISO 27001-aligned, offline privacy-preserving mode."
 
-- Built a full SOC at Next Step IT using Wazuh + ELK Stack, with Active Response automation, APT correlation rules, and MISP threat intelligence integration
-- Shipped CyberAudit Pro — an AI-driven audit platform unifying 14 scanning tools under a single Django interface, powered by a multi-model AI pipeline (DeepSeek, Grok, Llama, Qwen via OpenRouter + Mistral via Ollama), ISO 27001-aligned
-- Investigated Splunk BOTSv1 — completed both scenarios, scored **16,193 with zero penalties**, traced the full Cerber v2 ransomware kill chain across Sysmon, Suricata, stream:dns, and stream:smb
-- Published CVE analysis on Medium — in-depth breakdown of CVE-2026-34197, an Apache ActiveMQ RCE that sat hidden for 13 years and is now actively exploited
-- Ranked **#1 in Bronze League** and climbed to **#1 in Silver League** on TryHackMe within consecutive weeks
+==> /labs/SOC_Infrastructure/
+    [+] soc_deployment.json
+        "Full SOC built with Wazuh + ELK Stack — APT correlation rules,
+         Active Response automation, MISP threat intelligence integration."
 
----
+==> /labs/DevSecOps_Pipeline/
+    [+] pipeline_policy.yml
+        "Secured Spring Boot CI/CD — SonarQube · Trivy · OWASP Dep-Check
+         enforced as policy gates in Jenkins & GitLab CI."
+
+==> /labs/Threat_Intelligence/CVEs/
+    [+] cve-2026-34197.md  ──  Apache ActiveMQ RCE · 13-year hidden bug · actively exploited
+    [+] cpanel-cve-may-2026.md  ──  Code exec + privilege escalation in cPanel/WHM
+    [+] cve-2026-7482-bleeding-llama.md  ──  OOB Read · 300k+ AI servers exposed
+
+==> /labs/SOC_Labs/splunk-bots/
+    [+] botsv1_ransomware_investigation.pdf
+        "Cerber v2 full kill chain — Sysmon · Suricata · stream:dns · stream:smb
+         Score: 16,193 · zero penalties · both scenarios completed."
+
+==> /labs/Web_Application_Security/
+    [+] portswigger-sqli-notes.md  ──  Full SQLi lab series documented
+    [+] portswigger-server-side-vulns-notes.md  ──  Path traversal · SSRF · file upload · CMDi
+
+==> /labs/Tools_and_Scripts/
+    [+] PyGhost-MAC.py  ──  Custom Python MAC spoofing tool
+```
+
+```
+[DIRB]  Scan complete. All artifacts verified. No access denied.
+```
 
 ## 🛡️ `[root@soc-ops ~]# ./thm_status.sh --operator rsd177`
 
